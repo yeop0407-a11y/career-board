@@ -307,3 +307,286 @@ main {
   #calendar { padding: 0.75rem 0.5rem; border-radius: 10px; }
   .modal-content { padding: 1.25rem; }
 }
+
+/* === Header Actions === */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-btn {
+  background: rgba(255,255,255,0.15);
+  border: 1.5px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.9);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.85rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.profile-btn:hover { background: rgba(255,255,255,0.25); border-color: white; color: white; }
+.profile-btn.has-profile {
+  background: rgba(245,158,11,0.2);
+  border-color: #F59E0B;
+  color: #FCD34D;
+}
+
+/* === View Toggle === */
+.view-toggle {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.view-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #CBD5E1;
+  background: white;
+  color: #64748B;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.view-btn.active { background: #1E3A5F; border-color: #1E3A5F; color: white; }
+.view-btn:hover:not(.active) { border-color: #1E3A5F; color: #1E3A5F; }
+
+/* === Cards Grid === */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.post-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  display: flex;
+  flex-direction: column;
+}
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+}
+
+.card-banner {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card-banner-icon { font-size: 2rem; opacity: 0.9; }
+
+.card-match-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #F59E0B;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.card-body {
+  padding: 0.9rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.card-category-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 9999px;
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  width: fit-content;
+}
+
+.card-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  font-size: 0.73rem;
+  color: #94A3B8;
+}
+
+.card-desc {
+  font-size: 0.78rem;
+  color: #64748B;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1rem;
+  border-top: 1px solid #F1F5F9;
+  background: #FAFAFA;
+  min-height: 40px;
+}
+
+.card-deadline {
+  font-size: 0.73rem;
+  font-weight: 600;
+  color: #EF4444;
+}
+
+.card-link {
+  font-size: 0.73rem;
+  font-weight: 600;
+  color: #1E3A5F;
+  text-decoration: none;
+}
+.card-link:hover { text-decoration: underline; }
+
+.cards-no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+
+/* === FC Match Badge (list view) === */
+.fc-event-custom { display: flex; align-items: center; gap: 0.3rem; overflow: hidden; }
+.fc-match-badge {
+  display: inline-block;
+  background: #F59E0B;
+  color: white;
+  font-size: 0.63rem;
+  font-weight: 700;
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* === Onboarding === */
+.ob-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15,23,42,0.6);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  backdrop-filter: blur(3px);
+}
+.ob-overlay.visible { display: flex; }
+
+.ob-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+  animation: modal-in 0.22s ease;
+}
+
+.ob-step { display: none; }
+.ob-step.active { display: block; }
+
+.ob-welcome-icon { font-size: 2.5rem; margin-bottom: 1rem; text-align: center; }
+.ob-title { font-size: 1.2rem; font-weight: 700; color: #0F172A; text-align: center; margin-bottom: 0.6rem; }
+.ob-desc { font-size: 0.875rem; color: #64748B; text-align: center; line-height: 1.65; margin-bottom: 1.5rem; }
+
+.ob-subtitle { font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-bottom: 0.75rem; }
+.ob-hint { font-size: 0.8rem; color: #64748B; margin-bottom: 0.5rem; font-weight: 500; }
+
+.ob-progress {
+  height: 4px;
+  background: #E2E8F0;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.ob-progress span {
+  display: block;
+  height: 100%;
+  background: #1E3A5F;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.ob-chip-group { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.ob-chip {
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  border: 1.5px solid #CBD5E1;
+  background: white;
+  color: #374151;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.ob-chip:hover { border-color: #1E3A5F; color: #1E3A5F; }
+.ob-chip.selected { background: #1E3A5F; border-color: #1E3A5F; color: white; font-weight: 600; }
+
+.ob-btn {
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: none;
+}
+.ob-btn-primary {
+  background: #1E3A5F;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+.ob-btn-primary:hover { background: #15304F; }
+.ob-btn-ghost {
+  background: transparent;
+  color: #94A3B8;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+}
+.ob-btn-ghost:hover { color: #64748B; }
+
+.ob-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; }
+.ob-nav .ob-btn-primary { width: auto; margin-top: 0; }
+
+.ob-step[data-step="0"] .ob-btn-ghost { display: block; text-align: center; margin-top: 0.5rem; width: 100%; }
+
+@media (max-width: 480px) {
+  .ob-card { padding: 1.5rem; border-radius: 16px; }
+  .profile-btn { font-size: 0.7rem; padding: 0.25rem 0.6rem; }
+  .cards-grid { grid-template-columns: 1fr; }
+}

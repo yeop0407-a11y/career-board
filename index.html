@@ -16,7 +16,10 @@
           <h1>경영학과 취업정보 캘린더</h1>
           <span id="last-updated" class="last-updated"></span>
         </div>
-        <button id="refresh-btn" class="refresh-btn" title="새로고침">↻</button>
+        <div class="header-actions">
+          <button id="profile-btn" class="profile-btn" title="내 프로필">프로필 설정</button>
+          <button id="refresh-btn" class="refresh-btn" title="새로고침">↻</button>
+        </div>
       </div>
       <div id="filters" class="filters"></div>
     </div>
@@ -24,7 +27,12 @@
 
   <main>
     <div id="loading" class="loading">데이터를 불러오는 중...</div>
-    <div id="calendar"></div>
+    <div id="view-toggle" class="view-toggle" style="display:none">
+      <button class="view-btn active" data-view="cards">&#9646;&#9646; 카드 보기</button>
+      <button class="view-btn" data-view="calendar">📅 캘린더</button>
+    </div>
+    <div id="cards-view" class="cards-grid" style="display:none"></div>
+    <div id="calendar" style="display:none"></div>
   </main>
 
   <!-- 상세 모달 -->
@@ -41,6 +49,55 @@
       <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-link-btn">
         원문 보기 →
       </a>
+    </div>
+  </div>
+
+  <!-- 개인화 온보딩 -->
+  <div id="onboarding" class="ob-overlay" aria-hidden="true">
+    <div class="ob-card" role="dialog" aria-modal="true" aria-labelledby="ob-heading">
+      <!-- Step 0: Welcome -->
+      <div class="ob-step active" data-step="0">
+        <div class="ob-welcome-icon">🎯</div>
+        <h2 class="ob-title" id="ob-heading">맞춤 취업정보를 받아보세요</h2>
+        <p class="ob-desc">학년과 관심 산업·직무를 설정하면<br>나에게 맞는 공고를 바로 찾을 수 있어요.</p>
+        <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="1">시작하기</button>
+        <button type="button" class="ob-btn ob-btn-ghost ob-skip">나중에 설정</button>
+      </div>
+      <!-- Step 1: Basic Info -->
+      <div class="ob-step" data-step="1">
+        <div class="ob-progress"><span style="width:33%"></span></div>
+        <h3 class="ob-subtitle">기본 정보</h3>
+        <p class="ob-hint">학년</p>
+        <div class="ob-chip-group" id="ob-grades"></div>
+        <p class="ob-hint" style="margin-top:1.25rem">취업 준비 단계</p>
+        <div class="ob-chip-group" id="ob-stages"></div>
+        <div class="ob-nav">
+          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="0">이전</button>
+          <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="2">다음</button>
+        </div>
+      </div>
+      <!-- Step 2: Industries -->
+      <div class="ob-step" data-step="2">
+        <div class="ob-progress"><span style="width:66%"></span></div>
+        <h3 class="ob-subtitle">관심 산업</h3>
+        <p class="ob-hint">복수 선택 가능</p>
+        <div class="ob-chip-group" id="ob-industries"></div>
+        <div class="ob-nav">
+          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="1">이전</button>
+          <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="3">다음</button>
+        </div>
+      </div>
+      <!-- Step 3: Jobs -->
+      <div class="ob-step" data-step="3">
+        <div class="ob-progress"><span style="width:100%"></span></div>
+        <h3 class="ob-subtitle">관심 직무</h3>
+        <p class="ob-hint">복수 선택 가능</p>
+        <div class="ob-chip-group" id="ob-jobs"></div>
+        <div class="ob-nav">
+          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="2">이전</button>
+          <button type="button" class="ob-btn ob-btn-primary ob-save">설정 완료</button>
+        </div>
+      </div>
     </div>
   </div>
 
