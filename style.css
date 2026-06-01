@@ -354,6 +354,21 @@ main {
 .view-btn.active { background: #1E3A5F; border-color: #1E3A5F; color: white; }
 .view-btn:hover:not(.active) { border-color: #1E3A5F; color: #1E3A5F; }
 
+.expired-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  border: 1.5px dashed #CBD5E1;
+  background: white;
+  color: #94A3B8;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-left: auto;
+}
+.expired-btn:hover { border-color: #94A3B8; color: #64748B; }
+.expired-btn.active { border-style: solid; border-color: #94A3B8; color: #475569; background: #F8FAFC; }
+
 /* === Cards Grid === */
 .cards-grid {
   display: grid;

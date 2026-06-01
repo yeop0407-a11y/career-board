@@ -11,7 +11,8 @@ const CAT_ICONS = {
 let calendar = null;
 let allPosts = [];
 let activeFilter = "all";
-let currentView = "cards";
+let currentView = "calendar";
+let showExpired = false;
 let userProfile = null;
 let obDraft = {};
 
@@ -68,12 +69,59 @@ function formatDateKo(dateStr) {
   return d.toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 }
 
+// 제목에서 마감일 추출 (괄호 안 날짜, 틸데 유무 무관)
 function extractDeadline(title) {
-  const m = title.match(/[~∼](\d{1,2})[./](\d{1,2})/);
+  const m = title.match(/\([~∼]?(\d{1,2})[./](\d{1,2})\)/);
   if (!m) return null;
-  const month = parseInt(m[1]);
-  const day = parseInt(m[2]);
-  return `${month}/${day}`;
+  return `${m[1]}/${m[2]}`;
+}
+
+// 게시물 마감 날짜를 YYYY-MM-DD로 반환
+function getDeadlineDate(post) {
+  const dl = extractDeadline(post.title);
+  if (!dl) return null;
+  const [m, d] = dl.split("/").map(Number);
+  const year = post.date ? new Date(post.date).getFullYear() : new Date().getFullYear();
+  return `${year}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+}
+
+// 마감일이 지났는지 확인 (마감일 없으면 false)
+function isExpired(post) {
+  const dl = getDeadlineDate(post);
+  if (!dl) return false;
+  return dl < new Date().toISOString().split("T")[0];
+}
+
+// 현재 만료 필터 적용된 게시물 목록
+function getActivePosts() {
+  return showExpired ? allPosts : allPosts.filter(p => !isExpired(p));
+}
+
+// 캘린더에 표시할 짧은 제목 (기업명 위주)
+function extractDisplayTitle(title) {
+  // 날짜 부분 제거
+  let t = title.replace(/\([~∼]?\d{1,2}[./]\d{1,2}\)/g, "").trim();
+
+  // 대괄호 접두어 처리
+  const bm = t.match(/^\[([^\]]+)\]/);
+  if (bm) {
+    const bc = bm[1];
+    // 학과/부서명이 아니라면 해당 내용이 곧 브랜드명
+    if (!["취업전략과", "학과공지", "사무실", "행정실", "대학원", "경력개발"].some(k => bc.includes(k))) {
+      return bc;
+    }
+    t = t.replace(/^\[[^\]]+\]\s*/, "");
+  }
+
+  // (주)XXX 또는 XXX(주) 패턴
+  const corp = t.match(/(?:\(주\)[가-힣A-Za-z0-9]+|[A-Za-z가-힣][A-Za-z가-힣0-9]*(?:\s[A-Za-z가-힣][A-Za-z가-힣0-9]*)?\s*\(주\))/);
+  if (corp) return corp[0].trim();
+
+  // 행동어 앞까지만 추출
+  const cut = t.search(/\s+(?:추천채용|채용공고|채용상담|채용설명|채용안내|채용 공고|모집|안내|설명회|상담회|인턴|특강|멘토링|공모전|서포터즈|취업캠프|양성과정)/);
+  if (cut > 2) return t.substring(0, cut).trim().substring(0, 18);
+
+  return t.substring(0, 18).trim();
 }
 
 // === 카드 뷰 렌더 ===
@@ -112,26 +160,36 @@ function renderCards(posts) {
   });
 }
 
-// === posts → FullCalendar events ===
+// === posts → FullCalendar events (기업명 표시 + 기간 밴드) ===
 function postsToEvents(posts) {
   return posts
     .filter(p => toCalendarDate(p.date))
-    .map(p => ({
-      id: p.id,
-      title: p.title,
-      start: toCalendarDate(p.date),
-      backgroundColor: p.color,
-      borderColor: p.color,
-      textColor: "#fff",
-      extendedProps: { ...p, isMatch: userProfile ? scorePost(p, userProfile) > 0 : false },
-    }));
+    .map(p => {
+      const deadlineDate = getDeadlineDate(p);
+      const event = {
+        id: p.id,
+        title: extractDisplayTitle(p.title),
+        start: toCalendarDate(p.date),
+        backgroundColor: p.color,
+        borderColor: p.color,
+        textColor: "#fff",
+        extendedProps: { ...p, isMatch: userProfile ? scorePost(p, userProfile) > 0 : false },
+      };
+      if (deadlineDate) {
+        // FullCalendar end는 exclusive → 마감일 +1
+        const endDate = new Date(deadlineDate + "T00:00:00");
+        endDate.setDate(endDate.getDate() + 1);
+        event.end = endDate.toISOString().split("T")[0];
+      }
+      return event;
+    });
 }
 
-// === FullCalendar 초기화 ===
+// === FullCalendar 초기화 (기본 월별 보기) ===
 function initCalendar(posts) {
   const el = document.getElementById("calendar");
   calendar = new FullCalendar.Calendar(el, {
-    initialView: "listYear",
+    initialView: "dayGridMonth",
     locale: "ko",
     height: "auto",
     headerToolbar: {
@@ -143,6 +201,7 @@ function initCalendar(posts) {
     views: { listYear: { buttonText: "전체 목록" } },
     events: postsToEvents(posts),
     eventContent(info) {
+      // 목록 뷰에서 맞춤 뱃지 표시
       if (!info.event.extendedProps.isMatch || info.view.type !== "listYear") return;
       const wrap = document.createElement("div");
       wrap.className = "fc-event-custom";
@@ -176,6 +235,16 @@ function switchView(view) {
   if (view === "calendar" && calendar) calendar.updateSize();
 }
 
+// === 지난 공고 토글 ===
+function toggleExpired() {
+  showExpired = !showExpired;
+  const btn = document.getElementById("expired-btn");
+  btn.classList.toggle("active", showExpired);
+  btn.textContent = showExpired ? "지난 공고 숨기기" : "지난 공고 포함";
+  renderFilters();
+  applyFilter(activeFilter);
+}
+
 // === 필터링 ===
 function applyFilter(categoryId) {
   activeFilter = categoryId;
@@ -183,13 +252,14 @@ function applyFilter(categoryId) {
     btn.classList.toggle("active", btn.dataset.id === categoryId);
   });
 
+  const base = getActivePosts();
   let filtered;
   if (categoryId === "custom") {
-    filtered = allPosts.filter(p => scorePost(p, userProfile) > 0);
+    filtered = base.filter(p => scorePost(p, userProfile) > 0);
   } else if (categoryId === "all") {
-    filtered = allPosts;
+    filtered = base;
   } else {
-    filtered = allPosts.filter(p => p.category === categoryId);
+    filtered = base.filter(p => p.category === categoryId);
   }
 
   renderCards(filtered);
@@ -205,7 +275,7 @@ function renderFilters() {
   container.innerHTML = "";
 
   if (userProfile) {
-    const matchCount = allPosts.filter(p => scorePost(p, userProfile) > 0).length;
+    const matchCount = getActivePosts().filter(p => scorePost(p, userProfile) > 0).length;
     const btn = document.createElement("button");
     btn.className = "filter-btn" + (activeFilter === "custom" ? " active" : "");
     btn.dataset.id = "custom";
@@ -371,11 +441,13 @@ async function init() {
 
     loadingEl.style.display = "none";
     renderFilters();
-    renderCards(allPosts);
-    initCalendar(allPosts);
+
+    const active = getActivePosts();
+    renderCards(active);
+    initCalendar(active);
 
     document.getElementById("view-toggle").style.display = "flex";
-    cardsEl.style.display = "grid";
+    switchView("calendar"); // 기본값: 캘린더 뷰
 
     if (!userProfile) setTimeout(openOnboarding, 700);
 
@@ -415,6 +487,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = e.target.closest(".view-btn");
     if (btn) switchView(btn.dataset.view);
   });
+
+  document.getElementById("expired-btn").addEventListener("click", toggleExpired);
 
   document.getElementById("onboarding").addEventListener("click", e => {
     const btn = e.target.closest("button");
