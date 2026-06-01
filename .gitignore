@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (검증용 스크립트, 레포에는 포함 안 해도 됨)
+node_modules/

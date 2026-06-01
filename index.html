@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>경영학과 취업정보 캘린더</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-top">
+        <div>
+          <h1>경영학과 취업정보 캘린더</h1>
+          <span id="last-updated" class="last-updated"></span>
+        </div>
+        <button id="refresh-btn" class="refresh-btn" title="새로고침">↻</button>
+      </div>
+      <div id="filters" class="filters"></div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">데이터를 불러오는 중...</div>
+    <div id="calendar"></div>
+  </main>
+
+  <!-- 상세 모달 -->
+  <div id="modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="modal-close" class="modal-close" aria-label="닫기">&times;</button>
+      <span id="modal-category" class="modal-category-badge"></span>
+      <h2 id="modal-title"></h2>
+      <div class="modal-meta">
+        <span>📅 게시일: <b id="modal-date"></b></span>
+        <span>🏫 출처: <b id="modal-source"></b></span>
+      </div>
+      <div id="modal-description" class="modal-description"></div>
+      <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-link-btn">
+        원문 보기 →
+      </a>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

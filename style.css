@@ -1,0 +1,309 @@
+/* === Reset === */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+  background: #F1F5F9;
+  color: #0F172A;
+  min-height: 100vh;
+}
+
+/* === Header === */
+header {
+  background: #1E3A5F;
+  color: white;
+  padding: 1rem 1.5rem 0.75rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+
+.header-inner { max-width: 1200px; margin: 0 auto; }
+
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.last-updated {
+  font-size: 0.72rem;
+  opacity: 0.65;
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.refresh-btn {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+.refresh-btn:hover { background: rgba(255,255,255,0.25); }
+
+/* === Filters === */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-bottom: 0.25rem;
+}
+
+.filter-btn {
+  padding: 0.25rem 0.85rem;
+  border-radius: 9999px;
+  border: 1.5px solid rgba(255,255,255,0.5);
+  background: transparent;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  border-color: white;
+  color: white;
+}
+
+.filter-btn.active {
+  background: var(--cat-color, white);
+  border-color: var(--cat-color, white);
+  color: white;
+  font-weight: 700;
+}
+
+.filter-btn[data-id="all"].active {
+  background: rgba(255,255,255,0.9);
+  border-color: white;
+  color: #1E3A5F;
+}
+
+/* === Main === */
+main {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 1rem 2rem;
+}
+
+/* === Loading === */
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: #64748B;
+  font-size: 0.9rem;
+}
+
+/* === Calendar container === */
+#calendar {
+  background: white;
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+
+/* === FullCalendar custom styles === */
+.fc .fc-toolbar-title {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: #0F172A;
+}
+
+.fc .fc-button {
+  background-color: #1E3A5F !important;
+  border-color: #1E3A5F !important;
+  font-size: 0.8rem !important;
+  padding: 0.3rem 0.7rem !important;
+  font-weight: 600 !important;
+}
+
+.fc .fc-button:hover {
+  background-color: #15304F !important;
+}
+
+.fc .fc-button-active {
+  background-color: #0F2035 !important;
+}
+
+.fc .fc-button:disabled {
+  background-color: #94A3B8 !important;
+  border-color: #94A3B8 !important;
+}
+
+/* List view */
+.fc-list-event { cursor: pointer; }
+
+.fc-list-event:hover td {
+  background-color: #EFF6FF !important;
+}
+
+.fc-list-event-dot {
+  border-radius: 50%;
+}
+
+.fc-list-day-text,
+.fc-list-day-side-text {
+  font-weight: 700 !important;
+  color: #1E3A5F !important;
+}
+
+/* Month view events */
+.fc-daygrid-event {
+  border-radius: 4px !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  padding: 1px 4px !important;
+  cursor: pointer;
+}
+
+/* No events */
+.fc-list-empty {
+  color: #94A3B8 !important;
+}
+
+/* === Modal === */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  backdrop-filter: blur(2px);
+}
+
+.modal-overlay.visible { display: flex; }
+
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  max-width: 560px;
+  width: 100%;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  animation: modal-in 0.2s ease;
+}
+
+@keyframes modal-in {
+  from { transform: translateY(12px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #F1F5F9;
+  border: none;
+  font-size: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.modal-close:hover { background: #E2E8F0; }
+
+.modal-category-badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 9999px;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 0.65rem;
+  letter-spacing: 0.02em;
+}
+
+.modal-content h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.85rem;
+  color: #0F172A;
+  padding-right: 2rem;
+}
+
+.modal-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.82rem;
+  color: #64748B;
+  margin-bottom: 1rem;
+}
+
+.modal-description {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: #374151;
+  margin-bottom: 1.5rem;
+  padding: 0.9rem 1rem;
+  background: #F8FAFC;
+  border-radius: 8px;
+  border-left: 3px solid #CBD5E1;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.modal-link-btn {
+  display: inline-block;
+  background: #1E3A5F;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: background 0.15s;
+}
+.modal-link-btn:hover { background: #15304F; }
+
+/* === Error === */
+.error-msg {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #64748B;
+  line-height: 2;
+}
+
+.error-msg code {
+  background: #F1F5F9;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Consolas', 'D2Coding', monospace;
+  font-size: 0.85rem;
+  color: #DC2626;
+}
+
+/* === Responsive === */
+@media (max-width: 640px) {
+  header { padding: 0.9rem 1rem 0.6rem; }
+  main { padding: 1rem 0.5rem 2rem; }
+  #calendar { padding: 0.75rem 0.5rem; border-radius: 10px; }
+  .modal-content { padding: 1.25rem; }
+}
