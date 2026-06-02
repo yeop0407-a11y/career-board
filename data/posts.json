@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-01T05:54:06.899614+00:00",
+  "updated": "2026-06-02T12:59:43.434670+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442278/artclView.do?layout=unknown",
+      "title": "[롯데그룹] 3·6·9·12 예측가능한 롯데그룹 채용 안내(6/2~)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442278/artclView.do?layout=unknown",
+      "date": "2026-06-02",
+      "source": "경영학과 취업게시판",
+      "description": "* 채용 관련 홈페이지 바로가기 링크: https://recruit.lotte.co.kr/",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442275/artclView.do?layout=unknown",
+      "title": "[학생처] 금정구 진로교육지원센터 사무원 채용 안내(~6/16)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442275/artclView.do?layout=unknown",
+      "date": "2026-06-02",
+      "source": "경영학과 취업게시판",
+      "description": "학생처에서 금정구 진로교육지원센터의 원활한 운영을 위하여 센터에서 근무할 사무원을 붙임과 같이 채용하고자 하오니 기한 내 지원바랍니다.1. 채용분야 및 인원분야인원근무부서담당 업무사무원1명부산대학교 학생처 학생과 및 금정구 진로교육지원센터○ 금정구 진로교육지원센터 관련 업무○ 특성화 프로그램 운영, 예산 실무 등 기타 금정구 진로교육지원센터 업무 분장에 따름2. 응시자격 : 채용예정 직무 분야 관련 학과(전공) 학사학위 취득(예정)자※ 2026년 8월 학사학위 취득 예정자도 지원 가능3. 채용방법 : 학생처 자체 계약직 공개경쟁채용",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1441953/artclView.do?layout=unknown",
       "title": "[취업전략과] SNF Korea(주) 추천채용 안내(~6/7)",
@@ -529,28 +551,6 @@
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1400759/artclView.do?layout=unknown",
-      "title": "[취업전략과] 한미그룹 한미약품/한미사이언스 채용설명회 일정 안내(4/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1400759/artclView.do?layout=unknown",
-      "date": "2026-03-23",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 한미그룹(한미약품/한미사이언스) 채용설명회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소한미그룹(한미약품/한미사이언스) 채용설명회&#039;26. 4. 14.(화)14:00 ~ 15:30문창회관 2층다목적강의실 12. 주요내용 : 당사 소개 및 &#039;26년 상반기 채용 안내3. 참가방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 한미그룹 채용에 관심있는 3~4학년 재학생 및 기졸업자(전공 무관)※ 채용직무 : (주) 영업 / (부) 연구, 품질, 공정개발, 임상, 재무 등 26개",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1400674/artclView.do?layout=unknown",
-      "title": "[취업전략과] 한화생명금융서비스 채용상담회 일정 안내(4/1)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1400674/artclView.do?layout=unknown",
-      "date": "2026-03-20",
-      "source": "경영학과 취업게시판",
-      "description": "한화생명금융서비스 채용상담회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소한화생명금융서비스 채용상담회&#039;26. 4. 1.(수) 10:00~17:00문창회관 2층 문창 3실2. 참가방법 : 사전신청(https://hlink.co.kr/events/132) 접수 또는 현장 참가3. 참가대상 : 재학생 및 기졸업자(전공 및 학년 무관) ※ 채용직무: 영업마케팅4. 기타사항 : 참가자 소정의 기념품 제공 예정  붙임 1. [한화생명금융서비스] 채용상담회 홍보 포스터 1부.2. [한화생명금융서비스] 채",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 }
