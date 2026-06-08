@@ -3,106 +3,308 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>경영학과 취업정보 캘린더</title>
+  <title>CAREER FIT BOARD · 경영학과 취업 나침반</title>
+  <meta name="description" content="부산대 경영학과 취업게시판 정보를 내 시간표와 관심 진로에 맞춰 추천해주는 취업 정보 개인화 웹사이트" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
 </head>
 <body>
+<div id="app">
 
-  <header>
-    <div class="header-inner">
-      <div class="header-top">
-        <div>
-          <h1>경영학과 취업정보 캘린더</h1>
-          <span id="last-updated" class="last-updated"></span>
+  <!-- ============ Top Navigation ============ -->
+  <nav class="topnav">
+    <div class="nav-brand">
+      <div class="brand-logo">🧭</div>
+      <div class="brand-text">
+        <strong>Career Fit</strong>
+        <span>경영학과 취업 나침반</span>
+      </div>
+    </div>
+
+    <div class="nav-menu" id="nav-menu">
+      <button class="nav-link active" data-view="dashboard">대시보드</button>
+      <button class="nav-link" data-view="foryou">맞춤 추천</button>
+      <button class="nav-link" data-view="schedule">내 시간표</button>
+      <button class="nav-link" data-view="explore">카테고리 탐색</button>
+    </div>
+
+    <div class="nav-actions">
+      <button id="refresh-btn" class="icon-btn" title="새로고침">↻</button>
+      <button id="bell-btn" class="icon-btn bell" title="마감 임박 정보">
+        🔔<span id="bell-badge" class="bell-badge" hidden>0</span>
+      </button>
+      <button id="profile-btn" class="profile-chip" title="내 프로필 설정">
+        <span class="avatar" id="profile-avatar">🙂</span>
+        <span class="profile-text">
+          <strong id="profile-name">프로필 설정</strong>
+          <span id="profile-sub">시작하려면 클릭</span>
+        </span>
+        <span class="chev">⌄</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- mobile nav (bottom) -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="m-link active" data-view="dashboard"><span>🏠</span>대시보드</button>
+    <button class="m-link" data-view="foryou"><span>⭐</span>맞춤</button>
+    <button class="m-link" data-view="schedule"><span>🗓️</span>시간표</button>
+    <button class="m-link" data-view="explore"><span>🔎</span>탐색</button>
+  </div>
+
+  <main class="content">
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>취업 정보를 불러오는 중...</p>
+    </div>
+
+    <!-- ====================== VIEW: 대시보드 ====================== -->
+    <section class="view" data-view="dashboard">
+      <!-- Hero -->
+      <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-inner">
+          <span class="hero-eyebrow">CAREER FIT BOARD</span>
+          <h1 class="hero-title">취업 정보,<br>내 일정에 맞춰 만나다</h1>
+          <p class="hero-sub">경영학과 취업게시판의 채용공고·추천채용·설명회·프로그램을<br>나의 시간표와 관심 진로 기준으로 골라드려요.</p>
+          <div class="hero-cta">
+            <button class="btn btn-primary" id="hero-profile-btn">내 맞춤 설정하기</button>
+            <span id="last-updated" class="hero-updated"></span>
+          </div>
         </div>
-        <div class="header-actions">
-          <button id="profile-btn" class="profile-btn" title="내 프로필">프로필 설정</button>
-          <button id="refresh-btn" class="refresh-btn" title="새로고침">↻</button>
+      </header>
+
+      <!-- Stat cards -->
+      <div class="stat-row" id="stat-row"></div>
+
+      <!-- Dashboard grid -->
+      <div class="dash-grid">
+        <!-- 취업 전략 가이드 -->
+        <section class="card strategy-card">
+          <div class="card-head">
+            <h2>취업 전략 가이드</h2>
+            <span class="card-tag" id="strategy-stage-tag">단계 미설정</span>
+          </div>
+          <div id="strategy-body" class="strategy-body"></div>
+        </section>
+
+        <!-- 카테고리 분포 -->
+        <section class="card dist-card">
+          <div class="card-head">
+            <h2>정보 종류</h2>
+            <button class="link-btn" data-goto="explore">전체 탐색 →</button>
+          </div>
+          <div id="dist-body" class="dist-body"></div>
+        </section>
+
+        <!-- 마감 임박 -->
+        <section class="card deadline-card">
+          <div class="card-head">
+            <h2>마감 임박 🔥</h2>
+            <span class="card-tag warn" id="deadline-count">0건</span>
+          </div>
+          <ul id="deadline-list" class="deadline-list"></ul>
+        </section>
+      </div>
+
+      <!-- 오늘의 맞춤 추천 -->
+      <section class="block">
+        <div class="block-head">
+          <h2>오늘의 맞춤 추천</h2>
+          <button class="link-btn" data-goto="foryou">더 보기 →</button>
+        </div>
+        <div id="dash-reco" class="cards-grid"></div>
+      </section>
+
+      <!-- 이번 주 참여 가능한 일정 -->
+      <section class="block">
+        <div class="block-head">
+          <h2 id="dash-events-title">다가오는 설명회·특강 일정</h2>
+          <button class="link-btn" data-goto="schedule">내 시간표와 비교 →</button>
+        </div>
+        <div id="dash-events" class="event-strip"></div>
+      </section>
+    </section>
+
+    <!-- ====================== VIEW: 맞춤 추천 ====================== -->
+    <section class="view" data-view="foryou" hidden>
+      <div class="view-head">
+        <div>
+          <h1 class="view-title">맞춤 추천</h1>
+          <p class="view-desc" id="foryou-desc">내 관심 산업·직무·준비단계에 맞는 정보를 골라드려요.</p>
+        </div>
+        <button class="btn btn-ghost" id="foryou-edit-btn">관심사 수정</button>
+      </div>
+      <div id="foryou-profile" class="profile-summary"></div>
+      <div class="toolbar">
+        <div class="seg" id="foryou-sort">
+          <button class="seg-btn active" data-sort="match">추천순</button>
+          <button class="seg-btn" data-sort="deadline">마감임박순</button>
+          <button class="seg-btn" data-sort="date">최신순</button>
+        </div>
+        <label class="check-toggle">
+          <input type="checkbox" id="foryou-fit-only"> 시간표 안 겹치는 일정만
+        </label>
+      </div>
+      <div id="foryou-cards" class="cards-grid"></div>
+    </section>
+
+    <!-- ====================== VIEW: 내 시간표 ====================== -->
+    <section class="view" data-view="schedule" hidden>
+      <div class="view-head">
+        <div>
+          <h1 class="view-title">내 시간표</h1>
+          <p class="view-desc">수업 시간을 칸으로 칠해두면, 설명회·특강이 수업과 겹치는지 자동으로 알려드려요.</p>
+        </div>
+        <div class="view-head-actions">
+          <button class="btn btn-ghost" id="timetable-clear">전체 지우기</button>
         </div>
       </div>
-      <div id="filters" class="filters"></div>
-    </div>
-  </header>
 
-  <main>
-    <div id="loading" class="loading">데이터를 불러오는 중...</div>
-    <div id="view-toggle" class="view-toggle" style="display:none">
-      <button class="view-btn" data-view="cards">&#9646;&#9646; 카드 보기</button>
-      <button class="view-btn active" data-view="calendar">📅 캘린더</button>
-      <button id="expired-btn" class="expired-btn">지난 공고 포함</button>
-    </div>
-    <div id="cards-view" class="cards-grid" style="display:none"></div>
-    <div id="calendar" style="display:none"></div>
+      <div class="schedule-grid">
+        <!-- timetable editor -->
+        <section class="card timetable-card">
+          <div class="card-head">
+            <h2>주간 수업 시간표</h2>
+            <span class="card-hint">칸을 클릭(드래그)해 수업 시간을 표시</span>
+          </div>
+          <div id="timetable" class="timetable"></div>
+          <div class="timetable-legend">
+            <span><i class="lg lg-class"></i> 내 수업</span>
+            <span><i class="lg lg-free"></i> 빈 시간</span>
+          </div>
+        </section>
+
+        <!-- 참여 가능 요약 -->
+        <section class="card fit-summary-card">
+          <div class="card-head"><h2>참여 가능 진단</h2></div>
+          <div id="fit-summary" class="fit-summary"></div>
+        </section>
+      </div>
+
+      <!-- 일정형 정보 리스트 -->
+      <section class="block">
+        <div class="block-head">
+          <h2>날짜·시간이 있는 일정</h2>
+          <div class="seg" id="fit-filter">
+            <button class="seg-btn active" data-fit="all">전체</button>
+            <button class="seg-btn" data-fit="ok">참여 가능</button>
+            <button class="seg-btn" data-fit="clash">수업 겹침</button>
+          </div>
+        </div>
+        <div id="schedule-events" class="cards-grid"></div>
+      </section>
+    </section>
+
+    <!-- ====================== VIEW: 카테고리 탐색 ====================== -->
+    <section class="view" data-view="explore" hidden>
+      <div class="view-head">
+        <div>
+          <h1 class="view-title">카테고리 탐색</h1>
+          <p class="view-desc">채용공고·추천채용·설명회·프로그램·공모전을 카테고리와 키워드로 찾아보세요.</p>
+        </div>
+      </div>
+
+      <div class="explore-toolbar">
+        <div class="search-box">
+          <span class="search-ic">🔎</span>
+          <input id="search-input" type="search" placeholder="기업명·키워드 검색 (예: 은행, 마케팅, 인턴)" />
+        </div>
+        <div class="seg" id="explore-viewtoggle">
+          <button class="seg-btn active" data-vt="cards">카드</button>
+          <button class="seg-btn" data-vt="calendar">캘린더</button>
+        </div>
+        <label class="check-toggle">
+          <input type="checkbox" id="expired-check"> 지난 공고 포함
+        </label>
+      </div>
+
+      <div id="filters" class="filters"></div>
+
+      <div id="explore-cards" class="cards-grid"></div>
+      <div id="calendar" hidden></div>
+    </section>
   </main>
 
-  <!-- 상세 모달 -->
-  <div id="modal" class="modal-overlay" aria-hidden="true">
-    <div class="modal-content" role="dialog" aria-modal="true">
-      <button id="modal-close" class="modal-close" aria-label="닫기">&times;</button>
-      <span id="modal-category" class="modal-category-badge"></span>
-      <h2 id="modal-title"></h2>
-      <div class="modal-meta">
-        <span>📅 게시일: <b id="modal-date"></b></span>
-        <span>🏫 출처: <b id="modal-source"></b></span>
-      </div>
-      <div id="modal-description" class="modal-description"></div>
-      <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-link-btn">
-        원문 보기 →
-      </a>
+  <footer class="site-footer">
+    <p>본 서비스는 부산대학교 경영학과 취업게시판 RSS를 기반으로 제작된 학습용 프로젝트입니다.</p>
+    <a href="https://biz.pusan.ac.kr/biz/1093/subview.do" target="_blank" rel="noopener">경영학과 취업게시판 바로가기 →</a>
+  </footer>
+</div>
+
+<!-- ============ 상세 모달 ============ -->
+<div id="modal" class="modal-overlay" aria-hidden="true">
+  <div class="modal-content" role="dialog" aria-modal="true">
+    <button id="modal-close" class="modal-close" aria-label="닫기">&times;</button>
+    <div class="modal-badges">
+      <span id="modal-category" class="badge"></span>
+      <span id="modal-fit" class="badge"></span>
+    </div>
+    <h2 id="modal-title"></h2>
+    <div class="modal-meta" id="modal-meta"></div>
+    <div id="modal-reason" class="modal-reason" hidden></div>
+    <div id="modal-description" class="modal-description"></div>
+    <div class="modal-actions">
+      <button id="modal-save" class="btn btn-ghost">☆ 저장</button>
+      <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">원문 보기 →</a>
     </div>
   </div>
+</div>
 
-  <!-- 개인화 온보딩 -->
-  <div id="onboarding" class="ob-overlay" aria-hidden="true">
-    <div class="ob-card" role="dialog" aria-modal="true" aria-labelledby="ob-heading">
-      <!-- Step 0: Welcome -->
-      <div class="ob-step active" data-step="0">
-        <div class="ob-welcome-icon">🎯</div>
-        <h2 class="ob-title" id="ob-heading">맞춤 취업정보를 받아보세요</h2>
-        <p class="ob-desc">학년과 관심 산업·직무를 설정하면<br>나에게 맞는 공고를 바로 찾을 수 있어요.</p>
-        <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="1">시작하기</button>
-        <button type="button" class="ob-btn ob-btn-ghost ob-skip">나중에 설정</button>
+<!-- ============ 개인화 온보딩 ============ -->
+<div id="onboarding" class="ob-overlay" aria-hidden="true">
+  <div class="ob-card" role="dialog" aria-modal="true" aria-labelledby="ob-heading">
+    <!-- Step 0 -->
+    <div class="ob-step active" data-step="0">
+      <div class="ob-welcome-icon">🎯</div>
+      <h2 class="ob-title" id="ob-heading">나에게 맞는 취업 정보를 받아보세요</h2>
+      <p class="ob-desc">학년·관심 진로·시간표를 알려주시면<br>경영학과 게시판에서 딱 맞는 정보만 골라드려요.</p>
+      <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="1">시작하기</button>
+      <button type="button" class="ob-btn ob-btn-ghost ob-skip">나중에 설정</button>
+    </div>
+    <!-- Step 1 -->
+    <div class="ob-step" data-step="1">
+      <div class="ob-progress"><span style="width:33%"></span></div>
+      <h3 class="ob-subtitle">기본 정보</h3>
+      <p class="ob-hint">학년</p>
+      <div class="ob-chip-group" id="ob-grades"></div>
+      <p class="ob-hint" style="margin-top:1.25rem">취업 준비 단계</p>
+      <div class="ob-chip-group" id="ob-stages"></div>
+      <div class="ob-nav">
+        <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="0">이전</button>
+        <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="2">다음</button>
       </div>
-      <!-- Step 1: Basic Info -->
-      <div class="ob-step" data-step="1">
-        <div class="ob-progress"><span style="width:33%"></span></div>
-        <h3 class="ob-subtitle">기본 정보</h3>
-        <p class="ob-hint">학년</p>
-        <div class="ob-chip-group" id="ob-grades"></div>
-        <p class="ob-hint" style="margin-top:1.25rem">취업 준비 단계</p>
-        <div class="ob-chip-group" id="ob-stages"></div>
-        <div class="ob-nav">
-          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="0">이전</button>
-          <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="2">다음</button>
-        </div>
+    </div>
+    <!-- Step 2 -->
+    <div class="ob-step" data-step="2">
+      <div class="ob-progress"><span style="width:66%"></span></div>
+      <h3 class="ob-subtitle">관심 산업</h3>
+      <p class="ob-hint">복수 선택 가능</p>
+      <div class="ob-chip-group" id="ob-industries"></div>
+      <div class="ob-nav">
+        <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="1">이전</button>
+        <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="3">다음</button>
       </div>
-      <!-- Step 2: Industries -->
-      <div class="ob-step" data-step="2">
-        <div class="ob-progress"><span style="width:66%"></span></div>
-        <h3 class="ob-subtitle">관심 산업</h3>
-        <p class="ob-hint">복수 선택 가능</p>
-        <div class="ob-chip-group" id="ob-industries"></div>
-        <div class="ob-nav">
-          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="1">이전</button>
-          <button type="button" class="ob-btn ob-btn-primary ob-next" data-to="3">다음</button>
-        </div>
-      </div>
-      <!-- Step 3: Jobs -->
-      <div class="ob-step" data-step="3">
-        <div class="ob-progress"><span style="width:100%"></span></div>
-        <h3 class="ob-subtitle">관심 직무</h3>
-        <p class="ob-hint">복수 선택 가능</p>
-        <div class="ob-chip-group" id="ob-jobs"></div>
-        <div class="ob-nav">
-          <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="2">이전</button>
-          <button type="button" class="ob-btn ob-btn-primary ob-save">설정 완료</button>
-        </div>
+    </div>
+    <!-- Step 3 -->
+    <div class="ob-step" data-step="3">
+      <div class="ob-progress"><span style="width:100%"></span></div>
+      <h3 class="ob-subtitle">관심 직무</h3>
+      <p class="ob-hint">복수 선택 가능</p>
+      <div class="ob-chip-group" id="ob-jobs"></div>
+      <div class="ob-nav">
+        <button type="button" class="ob-btn ob-btn-ghost ob-prev" data-to="2">이전</button>
+        <button type="button" class="ob-btn ob-btn-primary ob-save">설정 완료</button>
       </div>
     </div>
   </div>
+</div>
 
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+<div id="toast" class="toast" hidden></div>
+
+<script src="config.js"></script>
+<script src="data/posts.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

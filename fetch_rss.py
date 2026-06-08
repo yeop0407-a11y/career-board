@@ -8,6 +8,7 @@ import feedparser
 import json
 import os
 import re
+import html
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -87,13 +88,24 @@ def parse_date(entry) -> str:
 
 
 def strip_html(text: str) -> str:
-    """HTML 태그 제거"""
-    text = re.sub(r"<[^>]+>", "", text or "")
-    text = re.sub(r"&nbsp;", " ", text)
-    text = re.sub(r"&amp;", "&", text)
-    text = re.sub(r"&lt;", "<", text)
-    text = re.sub(r"&gt;", ">", text)
-    return text.strip()
+    """HTML을 제거하되 표/문단 구조를 줄·셀 구분으로 보존한다."""
+    if not text:
+        return ""
+    t = text
+    # 줄바꿈 태그
+    t = re.sub(r"(?i)<\s*br\s*/?>", "\n", t)
+    # 행/문단/제목/목록은 줄바꿈으로
+    t = re.sub(r"(?i)</\s*(p|tr|li|div|h[1-6]|table|thead|tbody|caption)\s*>", "\n", t)
+    # 표 셀 구분은 ' | '
+    t = re.sub(r"(?i)</\s*(td|th)\s*>", " | ", t)
+    # 나머지 태그 제거
+    t = re.sub(r"<[^>]+>", "", t)
+    # HTML 엔티티 디코딩(&amp; &#039; 등 전부)
+    t = html.unescape(t)
+    # 줄별 공백 정리, 빈 줄/외톨이 구분자 제거
+    lines = [re.sub(r"[ \t]+", " ", ln).strip(" |").strip() for ln in t.split("\n")]
+    lines = [ln for ln in lines if ln]
+    return "\n".join(lines)
 
 
 def fetch_all() -> list:
@@ -155,9 +167,18 @@ def save(posts: list):
         "count": len(posts),
         "posts": posts,
     }
+    # 1) posts.json — GitHub Action·외부 소비자용
     with open("data/posts.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"\n[OK] Saved {len(posts)} posts -> data/posts.json")
+
+    # 2) posts.js — 로컬에서 서버 없이 index.html을 더블클릭으로 열 때 사용
+    #    (file:// 프로토콜에서는 fetch()가 차단되므로 전역 변수로 주입한다)
+    js = "/* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */\n"
+    js += "window.POSTS_DATA = " + json.dumps(output, ensure_ascii=False, indent=2) + ";\n"
+    with open("data/posts.js", "w", encoding="utf-8") as f:
+        f.write(js)
+    print(f"[OK] Saved {len(posts)} posts -> data/posts.js")
 
 
 if __name__ == "__main__":

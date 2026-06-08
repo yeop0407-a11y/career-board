@@ -31,6 +31,8 @@ jobs:
       - name: 변경사항 커밋 및 푸시
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore: RSS 데이터 자동 업데이트 (${{ steps.date.outputs.date }})"
-          add: "data/posts.json"
+          message: "chore: RSS 데이터 자동 업데이트"
+          add: |
+            data/posts.json
+            data/posts.js
           default_author: github_actions
