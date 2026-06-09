@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-06-08T14:41:02.548570+00:00",
+  "updated": "2026-06-09T11:44:24.295675+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442985/artclView.do?layout=unknown",
+      "title": "[취업전략과] KPX홀딩스(주) 추천채용 안내(~6/18)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442985/artclView.do?layout=unknown",
+      "date": "2026-06-09",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 KPX홀딩스(주) 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집부문근무형태근무지역연봉복리후생관리팀정규직서울4,472만원의료비, 경조휴가 및 경조금 지원 등2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여구분세부내용추천인원- 3명담당업무- 자금 운영 및 출납 관리- 회계 결산 및 ERP 시스템 운영- 인사 및 급여관리 업무 전반- 내부 회계 관리제도 운영 및 대응- 기타 경영관리 관련 제반 업무자격요건- 기졸업자 및 ?26년 8월 졸업예정자상경계열 전공자(경영, 회계, 세무 등)전학년 평점 3.0 이상인 자",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442896/artclView.do?layout=unknown",
+      "title": "[취업전략과] 누버마리타임(유) 추천채용 안내(~6/14)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442896/artclView.do?layout=unknown",
+      "date": "2026-06-09",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 누버마리타임(유) 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집분야근무형태근무지역연봉근무시간Project Engineer정규직부산4,000만원 이상(평일)08:00~17:002. 추천개요구분세부내용추천인원- 제한없음추천학과기계/조선/항공 관련 학과, 상경계열담당업무조직 내 전 세계 팀과 협력하여 APAC지역 조선소 및 선사에 공급된 조향 시스템 솔루션의 프로젝트 전 과정 관리, 프로젝트 매니저 지원자격요건- 기졸업자 및 1개월 이내 입사 가능한 자- 해외여행에 결격사유가 없는 자비즈니스 영어가 능숙한 자(쓰기,",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442803/artclView.do?layout=unknown",
       "title": "[취업전략과] 울산항만공사 2026년 하반기 체험형청년인턴 추천 안내(~6/11, 재·휴학생, 졸업생)",
@@ -530,28 +552,6 @@ window.POSTS_DATA = {
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1411852/artclView.do?layout=unknown",
-      "title": "[취업전략과] DN솔루션즈 채용상담회 일정 안내(4/2)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1411852/artclView.do?layout=unknown",
-      "date": "2026-03-27",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 DN솔루션즈 채용상담회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소DN솔루션즈 채용상담회'26. 4. 2.(목) 10:00~17:00기계관 지하 1층 로비2. 참가방법 : 당일 현장 참가 (사전신청 불요)3. 참가대상 : DN솔루션즈 채용에 관심 있는 재학생 및 기졸업자 (전공 학년 무관)4. 기타사항 : 참가자 소정의 기념품 제공 예정 붙임 [DN솔루션즈] 채용공고 포스터 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1401084/artclView.do?layout=unknown",
-      "title": "[이수그룹] 2026 이수그룹 신입사원 공개채용(~4/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1401084/artclView.do?layout=unknown",
-      "date": "2026-03-25",
-      "source": "경영학과 취업게시판",
-      "description": "2026 이수그룹 신입사원 공개채용 관련하여 아래와 같이 안내드립니다.■ 모집기간 2026.03.25(수) 10:00AM - 2026.04.14(화) 10:00AM ■ 지원방법https://isu-recruit.com/ 에서 온라인지원 ■ 지원자격국내/외 4년제 대학 기졸업자 및 졸업예정자병역필 또는 면제자로 해외여행에 결격사유가 없는 자 장애인/보훈대상자는 관련 법령에 따라 우대합니다. 입사지원 기재 내용 또는 제출서류 중 허위 사실이 있는 경우에는 합격 및 입사가 취소될 수 있습",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 };
