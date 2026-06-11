@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-06-10T12:40:47.517157+00:00",
+  "updated": "2026-06-11T13:05:05.088460+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1443153/artclView.do?layout=unknown",
+      "title": "[현대모비스] 2026년 6월 신입 채용 안내(~6/25)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1443153/artclView.do?layout=unknown",
+      "date": "2026-06-11",
+      "source": "경영학과 취업게시판",
+      "description": "현대모비스에서 26년 6월 신입 채용을 진행하고 있습니다.현대모비스와 함께할 우수 인재분들의 많은 관심과 지원 바랍니다.■ 모집일정6월 11일(목) ~ 6월 25일(목) 11시■ 지원방법채용사이트 내 온라인 접수 (https://careers.mobis.com) ■ 전형절차 서류접수 인/적성 검사 1차 면접 2차 면접 채용 검진 입사※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다.※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다. ■ 채용문의자",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442985/artclView.do?layout=unknown",
       "title": "[취업전략과] KPX홀딩스(주) 추천채용 안내(~6/18)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1422559/artclView.do?layout=unknown",
-      "title": "[취업전략과] 신용보증기금 채용설명회 일정 안내(4/2)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1422559/artclView.do?layout=unknown",
-      "date": "2026-03-27",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 신용보증기금 채용설명회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소신용보증기금 채용설명회'26. 4. 2.(목) 12:00~13:00문창회관 2층 다목적강의실 12. 주요내용 : 당사 소개 및 '26년 상반기 채용 안내3. 참가방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 신용보증기금 채용에 관심있는 3~4학년 재학생 및 기졸업자(전공 무관)5. 기타사항 : 참여자 소정의 기념품 제공 예정 붙임 [신용보증기금] ?26년 상반기 채용 안내 카드뉴스 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 };
