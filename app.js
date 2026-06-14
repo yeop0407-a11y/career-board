@@ -154,7 +154,17 @@ function getSchedule(post) {
 
 // 마감/종료 기준 날짜
 function endDate(post) { return post._sched.deadlineDate || post._sched.eventDate || null; }
-function isExpired(post) { const e = endDate(post); return e ? e < todayStr() : false; }
+function isExpired(post) {
+  const e = endDate(post);
+  if (e) return e < todayStr();
+  // 명시된 마감일·일정일 없는 게시물은 게시일 기준 60일 후 만료
+  if (post.date) {
+    const exp = new Date(post.date);
+    exp.setDate(exp.getDate() + 60);
+    return exp.toISOString().slice(0, 10) < todayStr();
+  }
+  return false;
+}
 function isScheduledEvent(post) { return post._sched.eventWeekday !== null && post._sched.eventWeekday !== undefined && !!post._sched.eventDate; }
 
 // 일정형(설명회·특강 등) 정보 모음
