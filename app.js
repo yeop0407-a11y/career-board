@@ -11,8 +11,8 @@ const CAT_ICONS = { fair: "🏢", recommended: "⭐", program: "📚", recruitme
 
 const WD_MAP = { "월": 0, "화": 1, "수": 2, "목": 3, "금": 4, "토": 5, "일": 6 };
 const WD_KO  = ["월", "화", "수", "목", "금", "토", "일"];
-const TT_DAYS  = ["월", "화", "수", "목", "금"];      // 시간표 요일
-const TT_HOURS = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]; // 시작 시각
+const TT_DAYS  = ["월", "화", "수", "목", "금"];
+const TT_SLOTS = (() => { const s = []; for (let h = 9; h <= 20; h++) for (const m of [0, 30]) s.push({ h, m }); return s; })();
 
 // 취업 전략 가이드 (준비 단계별)
 const STAGE_GUIDE = {
@@ -191,20 +191,38 @@ function ddayInfo(post) {
 }
 
 // ===== 시간표 / 참여 가능 진단 =====
-function classSet() { return new Set((userProfile && userProfile.timetable) || []); }
+function classSet() {
+  const raw = (userProfile && userProfile.timetable) || [];
+  const keys = [];
+  for (const k of raw) {
+    const parts = k.split("-");
+    if (parts.length === 2) {
+      // 구 "d-h" (1시간) → 두 30분 슬롯으로 확장
+      for (const m of [0, 30]) keys.push(`${parts[0]}-${parts[1]}-${m}`);
+    } else if (parts.length === 3) {
+      // 구 15분 키 → 가장 가까운 30분으로 반올림
+      const [d, h, m] = parts.map(Number);
+      keys.push(`${d}-${h}-${m < 30 ? 0 : 30}`);
+    } else {
+      keys.push(k);
+    }
+  }
+  return new Set(keys);
+}
 function hasTimetable() { return classSet().size > 0; }
 
 // 참여 가능 여부: {fit:'ok'|'clash'|'unknown', label}
 function eventFit(post) {
   const s = post._sched;
-  if (s.eventWeekday === null || s.eventWeekday === undefined) return null; // 일정형 아님
-  if (s.eventWeekday > 4) return { fit: "ok", label: "주말 일정" };          // 주말 → 수업 무관
+  if (s.eventWeekday === null || s.eventWeekday === undefined) return null;
+  if (s.eventWeekday > 4) return { fit: "ok", label: "주말 일정" };
   if (!s.time) return { fit: "unknown", label: "시간 미정" };
   if (!hasTimetable()) return { fit: "unknown", label: "시간표 미입력" };
   const cs = classSet();
   for (const blk of cs) {
-    const [d, h] = blk.split("-").map(Number);
-    if (d === s.eventWeekday && h < s.time.endH && h + 1 > s.time.startH)
+    const [d, h, m = 0] = blk.split("-").map(Number);
+    const slotStart = h + m / 60;
+    if (d === s.eventWeekday && s.time.startH < slotStart + 0.5 && s.time.endH > slotStart)
       return { fit: "clash", label: "수업과 겹침" };
   }
   return { fit: "ok", label: "참여 가능" };
@@ -537,28 +555,37 @@ function renderTimetable() {
   const grid = $("#timetable");
   const cs = classSet();
 
-  // 이벤트가 걸친 칸 표시용 (다가오는 일정, 없으면 최근 일정 예시)
-  const eventCells = {}; // "d-h" -> [titles]
+  // 이벤트가 걸친 15분 칸 표시용 "d-h-m" -> [titles]
+  const eventCells = {};
   scheduleEventList().list.forEach((p) => {
     const s = p._sched;
     if (s.eventWeekday > 4 || !s.time) return;
-    const from = Math.floor(s.time.startH), to = Math.ceil(s.time.endH) - 1;
-    for (let h = from; h <= to; h++) {
-      if (!TT_HOURS.includes(h)) continue;
-      const k = `${s.eventWeekday}-${h}`;
-      (eventCells[k] = eventCells[k] || []).push(displayTitle(p.title));
-    }
+    const { startH, endH } = s.time;
+    TT_SLOTS.forEach(({ h, m }) => {
+      const slotStart = h + m / 60;
+      if (slotStart < endH && slotStart + 0.5 > startH) {
+        const k = `${s.eventWeekday}-${h}-${m}`;
+        (eventCells[k] = eventCells[k] || []).push(displayTitle(p.title));
+      }
+    });
   });
 
   grid.style.gridTemplateColumns = `46px repeat(${TT_DAYS.length}, 1fr)`;
   let html = `<div class="tt-cell tt-head"></div>` + TT_DAYS.map((d) => `<div class="tt-cell tt-head">${d}</div>`).join("");
-  TT_HOURS.forEach((h) => {
-    html += `<div class="tt-cell tt-time">${pad(h)}시</div>`;
+  TT_SLOTS.forEach(({ h, m }) => {
+    let timeCls = "tt-cell tt-time", timeText = "";
+    if (m === 0) { timeCls += " tt-hour"; timeText = `${pad(h)}시`; }
+    else         { timeCls += " tt-half"; timeText = "30"; }
+    html += `<div class="${timeCls}">${timeText}</div>`;
     for (let d = 0; d < TT_DAYS.length; d++) {
-      const key = `${d}-${h}`;
+      const key = `${d}-${h}-${m}`;
       const on = cs.has(key);
       const ev = eventCells[key];
-      const cls = "tt-cell slot" + (on ? " on" : "") + (ev ? " has-event" : "");
+      let cls = "tt-cell slot";
+      if (m === 0) cls += " hour-top";
+      else         cls += " half-top";
+      if (on) cls += " on";
+      if (ev) cls += " has-event";
       const title = ev ? ` title="이 시간대 일정: ${escapeHtml(ev.join(", "))}"` : "";
       html += `<div class="${cls}" data-key="${key}"${title}></div>`;
     }
