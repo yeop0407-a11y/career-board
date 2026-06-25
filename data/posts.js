@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-06-24T10:36:06.604644+00:00",
+  "updated": "2026-06-25T10:29:05.577358+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1444659/artclView.do?layout=unknown",
+      "title": "[기술보증기금] 2026년 정규직 신입직원 채용공고(~6/30)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1444659/artclView.do?layout=unknown",
+      "date": "2026-06-25",
+      "source": "경영학과 취업게시판",
+      "description": "■ (접수기간) 2026. 6. 12.(금) 14:00 ~ 6. 30.(화) 16:00 (최종 제출 완료 기준)■ (접수방법) 채용 홈페이지(https://kibo.saramin.co.kr) 접수",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1444628/artclView.do?layout=unknown",
+      "title": "[(주)DN오토모티브] 기획원가파트 신입사원 모집 안내(~7/5)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1444628/artclView.do?layout=unknown",
+      "date": "2026-06-25",
+      "source": "경영학과 취업게시판",
+      "description": "(주)DN AUTOMOTIVE 신입/경력사원을 다음과 같이 모집합니다. 모집링크 : [신입/경력] 재무-기획원가 신입/경력사원 모집 1. 모집 부문 : 기획원가 (기획 및 원가 업무) 2. 모집 인원 : 0명 3. 근무 조건- 정규직 / 월~금 08:00~17:30- 근무지 : 경상남도 양산시 산막공단북 11길 103 디엔오토모티브 본사- 연봉 : 5,400만원(2026년 대졸 신입 초봉 기준, 경력의 경우 협의 가능) 4. 담당업무- 기획관리- 원가관리 및 분석- 사업계획 수립 및 관리- 월간 손익 및 자재별 손익관리- 핵심성",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1443264/artclView.do?layout=unknown",
       "title": "[취업전략과] 가덕도신공항건설공단 채용설명회 일정 안내(6/16)",
@@ -527,28 +549,6 @@ window.POSTS_DATA = {
       "date": "2026-04-02",
       "source": "경영학과 취업게시판",
       "description": "취업전략과에서 예금보험공사 채용설명회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소예금보험공사 채용설명회'26. 4. 6.(월) 14:00~16:00경제통상관 306호2. 주요내용 : 공사 소개 및 채용 전형 안내3. 참가방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 예금보험공사 채용에 관심있는 3~4학년 재학생 및 기졸업자(전공 무관) 붙임 [예금보험공사] 채용설명회 홍보 포스터 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433370/artclView.do?layout=unknown",
-      "title": "2025년도 경영학과 졸업자 취업통계조사(~4/9, 학부)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433370/artclView.do?layout=unknown",
-      "date": "2026-04-02",
-      "source": "경영학과 취업게시판",
-      "description": "2025년도 경영학과 졸업자 취업통계조사(학부) 「2025년도 고등교육기관 졸업자 취업통계조사」를 실시하오니, 정확한 취업통계조사가 이뤄질 수 있도록 졸업생들의 많은 협조를 바랍니다. 1. 조사대상 : 2024년 8월, 2025년 2월 졸업자2. 조사기준일 : 2025년 12월 31일 기준의 취업 상태3. 조사기간 : 2026. 4. 9.(목) 23:59까지4. 조사방법 : 네이버폼 URL 접속 후 응답&#9312; 건강보험 연계(직장가입) 확인자 : https://naver.me/5PWiYyVd&#9313; 건강보험 연계",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1432769/artclView.do?layout=unknown",
-      "title": "[취업전략과] 무신사리테일서비스 런치 채용설명회 및 상담회 일정 안내(4/8)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1432769/artclView.do?layout=unknown",
-      "date": "2026-03-30",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 무신사리테일서비스 런치 채용설명회 및 상담회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.O 행사 개요구분런치 채용설명회채용상담회개최일시2026. 4. 8.(수) 12:00~14:002026. 4. 8.(수) 10:00~17:00개최장소문창회관 2층 다목적강의실1문창회관 2층 문창 1실주요내용당사 소개 및 2026년 상반기 채용 안내참가방법- 사전신청(https://linktr.ee/musinsars) 접수 후 현장 참가참가대상- 전공 무관, 3~4학년 재학생 및 기졸업자기타사항채용설명회 현장 참석자(선착순 50",
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
