@@ -1,8 +1,63 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-06-29T14:40:17.676118+00:00",
+  "updated": "2026-06-30T11:27:46.009942+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447538/artclView.do?layout=unknown",
+      "title": "[대학일자리플러스센터] 일본 대기업 RAIZNEXT(레이즈넥스트) 온라인 채용설명회 참가자 모집(~7/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447538/artclView.do?layout=unknown",
+      "date": "2026-06-30",
+      "source": "경영학과 취업게시판",
+      "description": "대학일자리플러스센터에서는 재학생 및 졸업생의 해외 취업 역량 강화를 위하여 일본 플랜트 엔지니어링 분야 대기업인 RAIZNEXT(레이즈넥스트)와 연계한 온라인 채용설명회를 아래와 같이 운영하고자 하오니, 많은 관심과 지원바랍니다.가. 프로그램명: 일본 대기업 RAIZNEXT(레이즈넥스트) 온라인 채용설명회나. 일시: 2026. 7. 7.(화) 14:00 ~ 15:30다. 운영 방법: 비대면 진행 (ZOOM 활용 예정)라. 참가 대상* 일본 취업에 관심 있는 재학생, 대학원생 및 졸업생* 기업 채용요건(입사년도 기준 만 30세 미만)",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447513/artclView.do?layout=unknown",
+      "title": "[취업전략과] 케이에이에프(주) 추천채용 안내(~7/22)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447513/artclView.do?layout=unknown",
+      "date": "2026-06-30",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 케이에이에프(주) 추천채용을 아래와 같이 알려드리니, 많은 관심과 지원바랍니다.1. 근무조건모집분야근무형태근무지역연봉해외영업정규직(수습기간 3개월)서울 마포구4,500만원2. 추천개요구분세부내용추천학과- 전공 무관추천인원- 제한 없음담당업무- 해외영업(유럽 시장 신규 개척 등)- 해외 바이어 협상 및 계약 체결- 수출입 프로세스 관리- 시장조사 및 분석 보고서 작성 등자격요건- 영어회화 가능자 ※ 어학점수 이력서 기재 필수- 무역실무 경험자- 해외출장 가능자우대사항- 섬유공학 화학 계열 전공자 또는 관련 분야 경험자-",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447494/artclView.do?layout=unknown",
+      "title": "[취업전략과] 한국 딜로이트 그룹_안진 회계법인 채용설명회 일정 안내(7/16)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447494/artclView.do?layout=unknown",
+      "date": "2026-06-30",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 [한국 딜로이트 그룹] 안진 회계법인 채용설명회 일정을 아래와 같이 알려드리니, 많은 관심과 참여바랍니다. 1. 행사개요행 사 명개최일시개최장소[한국 딜로이트 그룹]안진 회계법인 채용설명회'26. 7. 16.(목) 14:00경영관 B동 213호2. 주요내용 : 2026년 신입 회계사 채용설명회 및 선배와의 대화3. 신청방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 기졸업자 및 3~4학년 재학생 (전공 무관) 붙임 채용설명회 홍보 포스터 1부. 끝.",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447492/artclView.do?layout=unknown",
+      "title": "[취업전략과] EY한영 회계법인 채용설명회 일정 안내(7/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447492/artclView.do?layout=unknown",
+      "date": "2026-06-30",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 EY한영 회계법인 채용설명회 일정을 아래와 같이 알려드리니, 많은 관심과 참여바랍니다.1. 행사개요행 사 명개최일시개최장소[EY한영] 한영 회계법인 채용설명회'26. 7. 10.(금) 10:00~12:00경영관 A동 212호2. 주요내용 : 2026년 신입 회계사 채용 안내3. 신청방법 : 사전신청(http://forms.gle/hUGPPzpAwJALmQ2L6) 후 현장 참가4. 참가대상 : 기졸업자 및 3~4학년 재학생 (전공 무관) 붙임 신입 공인회계사 모집 포스터 1부. 끝.",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447479/artclView.do?layout=unknown",
+      "title": "2027년 전국 지역인재 7급 수습직원 추천대비 예비대상자 모집 및 활동 지원 안내(~7/13)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447479/artclView.do?layout=unknown",
+      "date": "2026-06-30",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 2027년 전국 지역인재 7급 수습직원 추천선발에 대비하여 필기시험(psat) 및 면접 경쟁력을 향상시킬 수 있도록 예비대상자를 모집, 선발하여 활동을 지원하고자 하니 관심 있는 학생들의 많은 신청 바랍니다.",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1444659/artclView.do?layout=unknown",
       "title": "[기술보증기금] 2026년 정규직 신입직원 채용공고(~6/30)",
@@ -497,61 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433786/artclView.do?layout=unknown",
-      "title": "[(재)부산정보산업진흥원] 2026년 2차 계약직 채용 안내(~4/21)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433786/artclView.do?layout=unknown",
-      "date": "2026-04-07",
-      "source": "경영학과 취업게시판",
-      "description": "(재)부산정보산업진흥원에서는 다음과 같이 직원을 공개 모집하오니, 참고하여 주시기 바랍니다.○ (재)부산정보산업진흥원 2026년 2차 계약직 채용 공고- 접수기간 : 2026. 04. 13.(월), 10:00 ~ 04. 21.(화), 16:00- 공고내용, 접수방법, 채용절차는 아래 사이트에서 확인 바랍니다.☞ (재)부산정보산업진흥원 채용 사이트(https://busanit.recruiter.co.kr)",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433768/artclView.do?layout=unknown",
-      "title": "[취업전략과] 커리어하이 금융권 취업 전략 및 청년일경험 사업 설명회 일정 안내(4/10)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433768/artclView.do?layout=unknown",
-      "date": "2026-04-07",
-      "source": "경영학과 취업게시판",
-      "description": "커리어하이에서 주관하는 2026 금융권 취업 전략 및 청년일경험 사업 설명회 일정을 아래와 같이 안내드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소[커리어하이] 2026 금융권 취업 전략 및 청년일경험 사업 설명회2026. 4. 10.(금)11:00~13:00경영관 109호2. 주요내용- 은행 증권 운용 보험사별 2026 금융권 채용 결산- 2026 하반기 방향성 및 면접 대비- 2026 청년일경험 사업 참여기업 및 프로젝트 소개3. 참가방법 : 붙임 포스터 내 QR코드를 통한 사전 접수 후 현장 참가* 참가 신",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433501/artclView.do?layout=unknown",
-      "title": "[취업전략과] 동국제강(주) 추천채용 안내(~4/9)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433501/artclView.do?layout=unknown",
-      "date": "2026-04-03",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 동국제강(주) 추천채용을 아래와 같이 알려드리니, 관심있는 학생은 기한 내 신청해 주시기 바랍니다.1. 근무조건근무형태연봉복리후생정규직(수습기간 3개월)군필 기준 5,200만원※ 성과급 별도 지급현금성 복리후생(약 300만원/년)자녀 학자금, 유아교육비 지원 등2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여구분세부내용추천인원- 5명추천학과전공 무관 ※ 모집직무별 상이모집직무(신입)- [서울] 기획, 생산계획관리, 법무, 해외영업- [인천] 설비관리(기계), 생산관리(봉강), 물류, 인사/노무- [포항] 생산관리",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433390/artclView.do?layout=unknown",
-      "title": "[한화손해보험] 2026 상반기 신입사원 모집 안내(~4/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433390/artclView.do?layout=unknown",
-      "date": "2026-04-02",
-      "source": "경영학과 취업게시판",
-      "description": "2026년 상반기 한화손해보험 신입사원 모집 관련하여 아래와 같이 안내드립니다.1. 신입사원 모집 관련 ■ 접수기간 : 4/6(월) - 4/20(월) 오후 3시■ 접수방법 : 인터넷 한화그룹 채용사이트(www.hanwhain.com)으로만 접수*마감시간에는 서버가 불안정하니 안전하게 전일 접수를 완료하시길 추천 드리며, 마감 시간 이후에는 어떤 사유로도 접수 불가합니다.■ 모집 부문 : 펨테크, 사이버보험, 회계, 경영지원*근무지 : 서울■ 지원자격- 기졸업자 및 '26년 8월 졸업예정자- '26년 7월부터 정상적으로 근무가 가능한",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1433387/artclView.do?layout=unknown",
-      "title": "[취업전략과] 예금보험공사 채용설명회 일정 안내(4/6)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1433387/artclView.do?layout=unknown",
-      "date": "2026-04-02",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 예금보험공사 채용설명회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소예금보험공사 채용설명회'26. 4. 6.(월) 14:00~16:00경제통상관 306호2. 주요내용 : 공사 소개 및 채용 전형 안내3. 참가방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 예금보험공사 채용에 관심있는 3~4학년 재학생 및 기졸업자(전공 무관) 붙임 [예금보험공사] 채용설명회 홍보 포스터 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 };
