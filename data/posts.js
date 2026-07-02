@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-07-01T11:40:55.405554+00:00",
+  "updated": "2026-07-02T02:51:31.235076+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447787/artclView.do?layout=unknown",
+      "title": "학.석.박사 연계과정 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447787/artclView.do?layout=unknown",
+      "date": "2026-07-02",
+      "source": "경영학과 취업게시판",
+      "description": "",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447749/artclView.do?layout=unknown",
       "title": "[취업전략과] (주)한국팜비오 추천채용 안내(~7/9)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434129/artclView.do?layout=unknown",
-      "title": "[취업전략과] 온라인 현직자 멘토링 무료 제휴 서비스 안내",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434129/artclView.do?layout=unknown",
-      "date": "2026-04-09",
-      "source": "경영학과 취업게시판",
-      "description": "1. 취업전략과에서는 취업을 준비하는 학생들에게 보다 생생한 취업 정보를 제공하고자 관련 업체와 제휴하여 온라인 현직자 멘토링 서비스를 제공하고 있습니다.2. 해당 서비스가 필요한 학생들의 적극적인 사용바랍니다.* AI진로검사, 멘토에게 질문하기, 멘토링 베스트 Pick, 취준 VOD 등의 콘텐츠3. 접속 경로 : 취업전략과 홈페이지(부산대 취업전략과) 로그인 (온라인 현직자 멘토링 잇다) - 회원 가입 및 우리대학 이메일 계정으로 승인 무료 사용 붙임 (잇다) 온라인 현직자 멘토링 이용 가이드 1부. 끝.",
-      "category": "program",
-      "categoryName": "취업프로그램",
-      "color": "#D97706"
     }
   ]
 };
