@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-05T02:41:34.364704+00:00",
+  "updated": "2026-07-06T02:46:47.430849+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448045/artclView.do?layout=unknown",
+      "title": "2026-2학기 HD현대 채용연계형 현장실습학기제 참여 학생 모집 안내(~7/15)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448045/artclView.do?layout=unknown",
+      "date": "2026-07-06",
+      "source": "경영학과 취업게시판",
+      "description": "현장실습지원센터에서 HD현대그룹에서 2026학년도 2학기 채용연계형 현장실습학기제에 참여할 학생을 모집하오니 관심있는 학생들은 기한 내 지원바랍니다. 가. 지원자격 : '26년 8월/ '27년 2월 졸업예정자('27년 1월 정식 입사 가능자)나. 모집기업 : HD현대중공업 등 6개 기업다. 실습기간 : '26.09.01.(화)~12.18.(금)라. 채용연계 : 실습기간 중 임원면접 실시(12월 초 예정) 후 합격 시 '' 2 7.1월 신입사원 자격으로 입사마. 지원일정 : 7.15(수)까지 포스터 내 QR코드를 통해 지원서 접수",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447787/artclView.do?layout=unknown",
       "title": "학.석.박사 연계과정 안내",
@@ -540,17 +551,6 @@
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434245/artclView.do?layout=unknown",
-      "title": "[취업전략과] 지멘스헬시니어스(주) 추천채용 안내(~4/22)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434245/artclView.do?layout=unknown",
-      "date": "2026-04-10",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 지멘스헬시니어스(주) 추천채용을 아래와 같이 알려드리니, 소속 학생이 지원할 수 있도록 학과 홈페이지 등을 통해 적극적으로 안내하여 주시기 바랍니다.1. 근무조건근무부서근무형태근무시간연봉SHS US INT TC TCE-KOR TRA정규직(수습기간 3개월)(평일)09:00~18:00약 4,500만원(인센티브 별도)2. 추천개요구분세부내용추천인원- 제한 없음추천학과전공 무관담당업무- 초음파프로브의 disinfection(소독)및 sterilization 관련 전반적인 업무- 초음파프로브(IVUS ICE 포함) 제작 및",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 }
