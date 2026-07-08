@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-07-07T02:42:35.816365+00:00",
+  "updated": "2026-07-08T02:21:12.377088+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448238/artclView.do?layout=unknown",
+      "title": "[취업전략과] 오션케트워크익스프레스코리아(주) 추천채용 안내(~7/9)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448238/artclView.do?layout=unknown",
+      "date": "2026-07-07",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 오션케트워크익스프레스코리아주식회사 추천채용을 아래와 같이 알려드리니, 희망하는 학생은 기한 내 신청바랍니다. 1. 근무조건모집분야근무형태근무시간근무지역연봉환적업무팀TS/Feeder Operation정규직(수습기간 3개월)(평일)09:00~18:00(시차출퇴근제 시행)부산4,400만원(수습기간 3개월간급여 85% 지급)※오션케트워크익스프레스 홈페이지 주소: www.one-line.com2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여담당업무자격요건 및 우대사항추천인원해상물류 운영 전반(세관 신고, 환적 관리 등)",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448045/artclView.do?layout=unknown",
       "title": "2026-2학기 HD현대 채용연계형 현장실습학기제 참여 학생 모집 안내(~7/15)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434251/artclView.do?layout=unknown",
-      "title": "[기아] 2026 상반기 기아 신입/전환형 인턴 채용(~4/13, 4/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434251/artclView.do?layout=unknown",
-      "date": "2026-04-10",
-      "source": "경영학과 취업게시판",
-      "description": "기아에서 2026년 상반기 신입/전환형 인턴 채용 관련하여 아래와 같이 안내드립니다.1. 신입 모집기간: 4월 1일(수) 11시 ~ 13일(월) 11시 지원자격: 학/석사 학위를 보유하신 분 혹은 2026년 8월 졸업 예정이신 분 합류여정: 지원서 접수 역량검사/서류전형 1차 면접 2차 면접 채용 검진 최종 합격 모집부문: 생산/제조, IT, 사업/기획, 경영지원, 연구개발 총 41개 부문 지원방법: 기아 탤런트 라운지 온라인 접수 ▶ https://career.kia.com/main/main.kc",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 };
