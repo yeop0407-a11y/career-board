@@ -1,7 +1,29 @@
 {
-  "updated": "2026-07-09T02:34:30.631727+00:00",
+  "updated": "2026-07-10T02:36:30.606535+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448963/artclView.do?layout=unknown",
+      "title": "[취업전략과] (주)보쉬렉스로스코리아 추천채용 안내(~7/13, MIS계열 등)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448963/artclView.do?layout=unknown",
+      "date": "2026-07-10",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 ㈜보쉬렉스로스코리아 추천채용을 아래와 같이 안내드립니다.1. 근무조건모집분야근무형태근무시간근무부서연봉CTG(Controlling)정규직(평일)08:45~17:45(유연근무 및 재택근무주 1회 가능)부산 본사3,900만원(연봉 및 복지카드 포함)※ (주)보쉬렉스로스코리아 홈페이지 주소: www.boschrexroth.com2. 추천개요 ※ 추천자 선발 시 서류전형 가점혜택담당업무자격요건 및 우대사항추천인원SAT 기반 IT 비즈니스 시스템 운영 및 AI?데이터 기반 비즈니스 지원 업무 수행- 경영정보.컴퓨터공학과 등 관련",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448945/artclView.do?layout=unknown",
+      "title": "[취업전략과] (주)위비스 추천채용 안내(~7/13)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448945/artclView.do?layout=unknown",
+      "date": "2026-07-09",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 ㈜위비스 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집분야근무형태근무시간근무부서연봉영업부정규직(수습기간 3개월)(평일)09:00~18:00패션브랜드 지센 영업팀(부산근무)4,000만원(식대포함)※(주)위비스 홈페이지 주소: wivis.applyin.co.kr2. 추천개요 ※ 추천자 선발 시 서류면제담당업무자격요건 및 우대사항추천인원매장 영업전략 수립, 매출 분석 및 대외 커뮤니케이션 업무 수행전공 무관기졸업자 및 ?27년 2월 졸업예정자(우대)장교 출신(전역예정자 포함), 4학년 재학생, 관련 업종 경험자10명",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448390/artclView.do?layout=unknown",
       "title": "[취업전략과] 자기소개서 1:1 클리닉 참가자 모집 안내(~7/30)",
@@ -529,28 +551,6 @@
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434713/artclView.do?layout=unknown",
-      "title": "[취업전략과] 제이에이치화학공업(주) 추천채용(~4/23)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434713/artclView.do?layout=unknown",
-      "date": "2026-04-14",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 제이에이치화학공업(주) 추천채용을 아래와 같이 알려드리니, 희망하는 학생들은 적극적으로 신청해 주시기 바랍니다. 1. 근무조건모집분야근무형태근무지역연봉제조기술팀정규직(수습기간 3개월)경북 김천시(대졸 초임)4,660만원2. 추천개요구분세부내용추천인원- 제한 없음담당업무Li2CO3(탄산리튬) 생산 공정 운영 및 관리원 부자재 입고 확인 및 재고 관리공정 수율 및 품질 데이터 분석 및 개선 관리공정 약품 및 소모품 사용량 관리, 재고 관리생산 실적 및 공정 데이터 보고생산 인력 운영 및 작업 지시, 공정 안전 관리지원자격",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434548/artclView.do?layout=unknown",
-      "title": "[취업전략과] (주)컴테크케미칼(~4/15)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434548/artclView.do?layout=unknown",
-      "date": "2026-04-13",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 (주)컴테크케미칼 추천채용을 아래와 같이 알려드리니, 희망하는 학생들의 적극적인 신청바랍니다.1. 근무조건업종모집분야근무형태연봉신발 부품 제조업무역, 생산관리, 연구,해외영업, 경영지원정규직4,000만원 이상2. 추천개요모집분야담당업무추천인원무역원 부자재 등 수출입 통관 및 관세 환급 등제한없음생산관리물리 발포 공정 분석 및 기술 개발 등연구물리 발포 공정 분석 및 기술 개발 등해외영업해외 고객사 관리 등경영지원회계 및 자금 담당 등3. 지원방법: 아래 서류를 '26. 4. 15.(수) 15:00까지 메일*(jobma",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
     }
   ]
 }
