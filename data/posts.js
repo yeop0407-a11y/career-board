@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-07-15T02:01:28.446466+00:00",
+  "updated": "2026-07-16T02:10:46.852776+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1451945/artclView.do?layout=unknown",
+      "title": "[취업전략과] 2026학년도 1차 대기업(GSAT) 및 공기업(NCS) 모의직무적성검사 모집 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1451945/artclView.do?layout=unknown",
+      "date": "2026-07-16",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 우리 대학 학생들의 2026학년도하반기 대기업.공기업 채용 대비를 위하여 대기업(GSAT) 및 공기업(NCS) 모의직무적성검사를 아래와 같이 실시하고자 하오니, 많은 관심과 신청바랍니다.가. 프로그램명: 2026학년도 1차 대기업(GSAT) 및 공기업(NCS) 모의직무적성검사나. 신청대상: 전체 학과(부) 3~4학년 재적생다. 신청기간- (대기업) '26. 7. 20.(월) ~ '26. 7. 30.(목) 17:00- (공기업) '26. 8. 10.(월) ~ '26. 8. 20.(목) 17:00라. 신청방법학생역량지원시",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448963/artclView.do?layout=unknown",
       "title": "[취업전략과] (주)보쉬렉스로스코리아 추천채용 안내(~7/13, MIS계열 등)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434744/artclView.do?layout=unknown",
-      "title": "[취업전략과] 현대백화점 채용설명회 일정 안내(4/27)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434744/artclView.do?layout=unknown",
-      "date": "2026-04-14",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 현대백화점 채용설명회 일정을 아래와 같이 알려드리니, 많은 참여바랍니다.1. 행사개요행 사 명개최일시개최장소현대백화점 지방권역 캠퍼스리크루팅 채용설명회'26. 4. 27.(월)14:00 ~ 15:00문창회관 다목적강의실 12. 주요내용 : ?26년 상반기 캠퍼스리크루팅 전형 안내3. 참가방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 현대백화점 채용에 관심있는 재학생 및 기졸업자(전공 학년 무관). 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 };
