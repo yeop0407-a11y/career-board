@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-07-20T02:35:18.416486+00:00",
+  "updated": "2026-07-21T02:13:36.704678+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1452154/artclView.do?layout=unknown",
+      "title": "[취업전략과] 스탠다드인터내셔널(주) 추천채용 안내(~7/31)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1452154/artclView.do?layout=unknown",
+      "date": "2026-07-21",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서 스탠다드인터내셔널(주) 추천채용을 아래와 같이 알려드리니, 많은 관심과 지원바랍니다.1. 기업소개- 글로벌 욕실 전문 브랜드 American Standard를 비롯하여 GROHE, INAX, JAXSON 등 세계적인 욕실 브랜드를 국내에 공급하는 욕실 전문기업- 위생도기, 수전금구, 비데, 타일 등 건축 내 외장재를 제조 유통하는 기업2. 근무조건모집분야근무형태근무시간근무부서연봉영업직정규직(수습기간 3개월)(평일)08:00~18:00부산 영업소3,600만원※스탠다드인터내셔널(주) 홈페이지 주소: www.american",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1451945/artclView.do?layout=unknown",
       "title": "[취업전략과] 2026학년도 1차 대기업(GSAT) 및 공기업(NCS) 모의직무적성검사 모집 안내",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1434829/artclView.do?layout=unknown",
-      "title": "[취업전략과] 동원그룹 GO_FIELD 인턴십(채용연계형) 추천채용 안내(~4/19)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1434829/artclView.do?layout=unknown",
-      "date": "2026-04-15",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 동원그룹 GO:FIELD 인턴십(채용연계형) 추천채용을 아래와 같이 알려드리니, 관심 있는 학생들은 적극적으로 신청해 주시기 바랍니다. 1. 근무조건근무형태모집회사모집직군근무지역채용연계형 인턴동원F B, 동원시스템즈, 동원건설산업국내영업, 생산, 건설, 안전 붙임3 참조※ 모집직무별 상이2. 추천개요구분세부내용추천인원- 10명모집직무 붙임3 추천직무 참조자격요건기졸업자 및 '26년 8월 졸업예정자로서, 6월 말 ~ 8월 초 인턴십 참여 및 최종 합격 후 신입사원 교육(8월 말)에 참석 가능한 자모집직무별 유관 전",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
