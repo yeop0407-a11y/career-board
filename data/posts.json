@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T01:29:06.675124+00:00",
+  "updated": "2026-08-16T01:02:07.669731+00:00",
   "count": 50,
   "posts": [
     {
@@ -100,6 +100,17 @@
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1455466/artclView.do?layout=unknown",
+      "title": "[취업전략과] 졸업(예정)자 개인정보 수집·이용 동의 취득에 대한 협조 요청(4학년)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1455466/artclView.do?layout=unknown",
+      "date": "2026-08-04",
+      "source": "경영학과 취업게시판",
+      "description": "취업전략과에서는 우리 대학 졸업생의 대학 재유입(Recall) 체계를 구축하여 미취업 이직 경력전환 등 경력 단계별 맞춤형 지원을 제공하고, 졸업생 경력정보를 활용한 AI 기반 진로설계 서비스 구축을 위한 데이터 기반을 마련하고자 합니다.이에 학생들이 개인정보 수집이용.동의를 취득하고자 하오니 아래 내용을 참고하여 동의해 주시기 바랍니다.□ 개인정보 수집 이용 동의 대상자- 2026학년도 학부 4학년(졸업예정자 포함), 2025년 8월 이후 졸업자- 2027학년도 대학원생 2학년(졸업 예정자 포함)□ 동의 기간 : 2026. 8",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
     },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1452724/artclView.do?layout=unknown",
@@ -540,17 +551,6 @@
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1439517/artclView.do?layout=unknown",
-      "title": "[네모파트너즈] RA (Research Analyst) 채용 안내",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1439517/artclView.do?layout=unknown",
-      "date": "2026-05-11",
-      "source": "경영학과 취업게시판",
-      "description": "네모파트너스에서 기장 지역 컨설팅 프로젝트 RA(Research Assistant)를 모집합니다.HR 컨설팅 분야 특성상 RA 경험이 없는 경우 채용이 다소 제한될 수 있으나, 해당 프로젝트를 통해 실무 경험을 쌓을 수 있는 기회가 될 수 있습니다.일정 특성상 휴학생이 우대될 수 있습니다.관심 있는 학생은 공고에 안내된 연락처로 이력서를 직접 제출하시기 바랍니다.[RA (Research Analyst) 채용 안내] 네모파트너즈POC (HR Consulting Function) http://www.nemopoc.com/ 부산",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 }
