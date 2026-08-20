@@ -1,8 +1,41 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-08-19T00:58:49.703864+00:00",
+  "updated": "2026-08-20T00:58:14.894250+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456253/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 2026학년도 제18기「선배와 손잡(Job)기」멘토 모집 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456253/artclView.do?layout=unknown",
+      "date": "2026-08-20",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서는 재직 중인 동문 선배로부터 기업 입사에 필요한 경험적 정보를 재적생에게 전수하고, 재적생과 동문 선배 간 인적 네트워크 구축 및 애교심 고취를 위하여 '제18기 선배와 손잡(Job)기' 멘토링 프로그램을 운영합니다. 이에 따라 프로그램에 참여할 멘토를 아래와 같이 모집하오니, 졸업생들의 많은 참여바랍니다. 제18기 선배와 손잡(Job)기 멘토(현직 동문선배) 모집 개요 - 참여대상 : 현업(공공기관, 사기업 등)에 정규직으로 재직 중인 본교 졸업생 4개월간 멘토링 활동이 가능하고, 이전 멘토링 활동에 문제가",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456239/artclView.do?layout=unknown",
+      "title": "[한국예탁결제원] 2026 하반기 공개 채용(~9/1)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456239/artclView.do?layout=unknown",
+      "date": "2026-08-19",
+      "source": "경영학과 취업게시판",
+      "description": "한국예탁결제원에서 2026 하반기 공개 채용을 진행 중입니다.온라인 설명회 참여자도 모집 중이니 많은 관심과 지원 부탁드립니다.■ 채용분야 및 모집인원 일반 : 경영(11명), 경제(7명), 수리통계(2명), 법(5명) IT(13명) 보훈(4명) ■ 접수기간 : 8.18(화)~9.1(화) ■ 채용 절차 1. 1차 전형 : 서류 심사 2. 2차 전형 : 인성검사 필기시험 3. 3차 전형 : 실무면접 4. 4차 전형 : 임원면접 5. 최종합격 ■ 지원방법 : 하기 링크를 통한 지원https://ksd.saramin.co.kr",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456234/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 성균관대학교 삼성창원병원 추천채용 안내(~8/27, 졸업생 등_연봉 4,700)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456234/artclView.do?layout=unknown",
+      "date": "2026-08-19",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 성균관대학교 삼성창원병원 추천채용을 아래와 같이 알려드리오니, 많은 관심과 지원바랍니다.1. 기업소개- 성균관대학교 삼성창원병원은 창원시 유일의 상급종합병원으로, 삼성의료원을 이루는 3개 병원 중 하나이며 지역의 중증 고난도 의료를 담당하는 의료기관- 약 2,500명의 임직원이 근무하고 있으며, 진료 연구 교육 등 다양한 분야에서 전문적인 의료서비스를 제공- 삼성의료원의 의료 인프라와 체계를 기반으로 지역사회 의료서비스 향상 및 우수 의료인력 양성에 기여2. 근무조건모집분야근무형태근무시간근무지연봉일반행정직, 전산직",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1455337/artclView.do?layout=unknown",
       "title": "[학생성공개발원] (주)에스엠지아이(SMGI) 추천채용 안내(~9/1)",
@@ -519,39 +552,6 @@ window.POSTS_DATA = {
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1440487/artclView.do?layout=unknown",
-      "title": "[취업전략과] 넥센타이어(주) 추천채용 안내(~5/21)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1440487/artclView.do?layout=unknown",
-      "date": "2026-05-14",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 넥센타이어(주) 추천채용을 아래와 같이 알려드리니, 관심있는 학생은 기한 내 신청바랍니다.1. 근무조건근무부서근무형태근무시간연봉노사협력팀(인사지원)정규직(평일) 08:30~17:304,700만원 이상2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여담당업무우대사항추천학과추천인원기능직 급여 및 상여 지급기능직 근태 관리연말정산 및 기타 수당 지급상경계열 전공자ERP 자격증 소지자근거리 거주자전공무관0명3. 지원방법: 아래 서류를 '26. 5. 21.(목) 11:00까지 메일*(sunmi@pusan.ac.kr)로 제출",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1440354/artclView.do?layout=unknown",
-      "title": "[취업전략과] 한국주택금융공사 채용설명회 일정 안내(5/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1440354/artclView.do?layout=unknown",
-      "date": "2026-05-12",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 한국주택금융공사 채용설명회 일정을 아래와 같이 알려드리니, 많은 관심과 참여바랍니다.1. 행사개요행 사 명개최일시개최장소한국주택금융공사 채용설명회'26. 5. 20.(수) 14:00~16:00문창회관 2층 다목적강의실12. 주요내용 : 주택금융강의, 전세사기 예방교육, 채용안내, 합격수기 인턴생활 등3. 신청방법 : 홈페이지 사전신청*(~5/15) 또는 당일 현장 접수* 주택금융연구원 홈페이지(HF 한국주택금융공사 주택금융연구원) 행사 재밌지예 참가신청4. 참가대상 : 한국주택금융공사 채용에 관심있는 재",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1440282/artclView.do?layout=unknown",
-      "title": "[취업전략과] 일양약품(주) 추천채용 안내(~6/3)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1440282/artclView.do?layout=unknown",
-      "date": "2026-05-12",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 일양악품(주) 추천채용을 아래와 같이 알려드리니, 관심있는 학생들의 많은 신청 바랍니다.1. 근무조건모집분야근무형태근무시간근무지역연봉ETC 사업본부정규직※ 3개월 계약직 후 전환(평일)09:00~18:00부산/창원/제주/대전/광주/수원신입 기준약 5,052만원2. 추천개요 ※ 추천자 선발 시 서류전형 면제 혜택구분세부내용추천인원- 제한 없음추천학과- 전공 무관담당업무- 병 의원 영업자격요건- 4년제 정규대학 졸업 이상인 자- 부산, 창원, 제주, 대전, 광주, 수원 근무 가능한 자- 남성의 경우 병역필 또는 면제자-",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
