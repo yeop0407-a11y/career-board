@@ -1,8 +1,85 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-08-31T03:15:10.144406+00:00",
+  "updated": "2026-09-01T03:18:03.318283+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458357/artclView.do?layout=unknown",
+      "title": "[현대자동차] 9월 신입 채용 안내(~9/14)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458357/artclView.do?layout=unknown",
+      "date": "2026-09-01",
+      "source": "경영학과 취업게시판",
+      "description": "■ 모집기간 2026년 9월 1일(화) 9시 9월 14일(월) 17시까지 (KST) ■ 접수방법 현대자동차 채용홈페이지 온라인 지원 ▶ https://bit.ly/3S8pgbF",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458356/artclView.do?layout=unknown",
+      "title": "[한화오션] 2026 하반기 신입사원 채용 및 런치 채용 설명회 안내(9/14)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458356/artclView.do?layout=unknown",
+      "date": "2026-09-01",
+      "source": "경영학과 취업게시판",
+      "description": "Begin Here, Your First Wave2026 하반기 한화오션 신입사원 채용 및 채용 행사 사전신청을 진행하오니, 많은 관심 부탁드립니다.[2026 하반기 한화오션 신입사원 채용]- 지원기간 : 2026.9.14 - 9.30 - 지원방법 : 한화오션 채용홈페이지(recruit-hanwhaocean.com)을 통한 온라인 지원- 모집분야 : 설계, 영업/사업관리/구매, 생산관리, AX, 연구개발, 경영지원- 채용 정보 자세히 보기 : https://recruit-hanwhaocean.com/ko/2026newrecruits",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458353/artclView.do?layout=unknown",
+      "title": "[현대모비스] 2026년 하반기 신입 채용 안내(~9/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458353/artclView.do?layout=unknown",
+      "date": "2026-09-01",
+      "source": "경영학과 취업게시판",
+      "description": "현대모비스에서 26년 하반기 신입 채용을 진행하고 있습니다.현대모비스와 함께할 우수 인재분들의 많은 관심과 지원 바랍니다.■ 모집일정8월 28일(금) ~ 9월 10일(금) 11시■ 지원방법채용사이트 내 온라인 접수 (https://careers.mobis.com) ■ 전형절차 서류접수 인/적성 검사 1차 면접 2차 면접 채용 검진 입사※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다. ※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다. ■ 채용문의",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458252/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 롯데백화점 채용설명회 및 상담회 일정 안내(9/4)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458252/artclView.do?layout=unknown",
+      "date": "2026-08-31",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 롯데백화점 채용설명회 및 상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소롯데백화점 채용설명회'26. 9. 4.(금) 14:00 ~ 15:00문창회관 2층 다목적강의실1롯데백화점 채용상담회'26. 9. 4.(금) 15:00 ~ 17:00문창회관 2층 세미나실2. 주요내용 : 2026년 하반기 롯데백화점 신입사원 채용 관련 채용설명회 및 현직자 1:1 상담※ 모집분야 : 영업점 통합직무(영업/MD, 영업기획/지원)3. 신청방법- 채용설명회 : 사전신청 후 참여※ 사전신청 링크 : https",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458247/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] KT 채용상담회 일정 안내(9/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458247/artclView.do?layout=unknown",
+      "date": "2026-08-31",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 KT 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소KT 채용상담회'26. 9. 3.(목)10:00 ~ 17:00문창회관 2층문창3실, 문창4실2. 주요내용 : 2026년 KT 대졸 신입 채용 관련 현직자 1:1 상담 및 커피트럭 행사※ 모집분야 : NW인프라운용, B2B컨설팅 세일즈, B2C마케팅 세일즈3. 신청방법 : 당일 현장 참가(사전신청 불요)4. 참가대상 : KT 채용에 관심 있는 4학년 졸업예정자 및 기졸업자 등 붙임 1. [KT] 2026년 대졸 신입 채용 공고문 1부",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458246/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 삼성전자 DS부문 채용설명회 일정 안내(9/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458246/artclView.do?layout=unknown",
+      "date": "2026-08-31",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 삼성전자DS부문 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소삼성전자 DS부문 채용설명회'26. 9. 3.(목)16:00 ~ 17:00기계관 2층 대강당2. 주요내용 : 삼성전자 DS부문 소개 및 채용설명회3. 신청방법 : 사전신청 후 참여※ 사전신청 링크: https://bit.ly/dsrecruitpusan※ 홍보 포스터 내 QR코드를 통해 신청 가능4. 참가대상 : 삼성전자DS부문 채용에 관심 있는 3~4학년 및 기졸업자 등 붙임 [삼성전자DS부문] 채용설명회 홍보 포스터 1",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458245/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 삼성에스원 채용상담회 일정 안내(9/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458245/artclView.do?layout=unknown",
+      "date": "2026-08-31",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 삼성에스원 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소삼성에스원 채용상담회'26. 9. 3.(목)09:00 ~ 17:00문창회관 2층 문창2실2. 주요내용 : 2026년 하반기 삼성에스원 신입사원 채용 관련 1:1 상담※ 모집분야 : 보안시스템영업, 부동산자산관리, 시설관리, SI기술, S/W개발, H/W개발, 경영지원3. 신청방법 : 당일 현장 참가(사전신청 불요)4. 참가대상 : 삼성에스원 채용에 관심 있는 4학년 졸업예정자 및 기졸업자 등 붙임 [삼성에스원] 2026년 하반",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1457704/artclView.do?layout=unknown",
       "title": "[KT] 2026년 KT 대졸신입 채용 안내(~9/7)",
@@ -16,7 +93,7 @@ window.POSTS_DATA = {
     },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1457698/artclView.do?layout=unknown",
-      "title": "[한화금융] 2026 한화금융 신입공채 및 채용설명회(9/4)",
+      "title": "[한화금융] 2026 한화금융 채용설명회 및 상담회 일정 안내(9/4)",
       "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1457698/artclView.do?layout=unknown",
       "date": "2026-08-27",
       "source": "경영학과 취업게시판",
@@ -475,83 +552,6 @@ window.POSTS_DATA = {
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442985/artclView.do?layout=unknown",
-      "title": "[취업전략과] KPX홀딩스(주) 추천채용 안내(~6/18)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442985/artclView.do?layout=unknown",
-      "date": "2026-06-09",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 KPX홀딩스(주) 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집부문근무형태근무지역연봉복리후생관리팀정규직서울4,472만원의료비, 경조휴가 및 경조금 지원 등2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여구분세부내용추천인원- 3명담당업무- 자금 운영 및 출납 관리- 회계 결산 및 ERP 시스템 운영- 인사 및 급여관리 업무 전반- 내부 회계 관리제도 운영 및 대응- 기타 경영관리 관련 제반 업무자격요건- 기졸업자 및 ?26년 8월 졸업예정자상경계열 전공자(경영, 회계, 세무 등)전학년 평점 3.0 이상인 자",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442896/artclView.do?layout=unknown",
-      "title": "[취업전략과] 누버마리타임(유) 추천채용 안내(~6/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442896/artclView.do?layout=unknown",
-      "date": "2026-06-09",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 누버마리타임(유) 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집분야근무형태근무지역연봉근무시간Project Engineer정규직부산4,000만원 이상(평일)08:00~17:002. 추천개요구분세부내용추천인원- 제한없음추천학과기계/조선/항공 관련 학과, 상경계열담당업무조직 내 전 세계 팀과 협력하여 APAC지역 조선소 및 선사에 공급된 조향 시스템 솔루션의 프로젝트 전 과정 관리, 프로젝트 매니저 지원자격요건- 기졸업자 및 1개월 이내 입사 가능한 자- 해외여행에 결격사유가 없는 자비즈니스 영어가 능숙한 자(쓰기,",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442803/artclView.do?layout=unknown",
-      "title": "[취업전략과] 울산항만공사 2026년 하반기 체험형청년인턴 추천 안내(~6/11, 재·휴학생, 졸업생)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442803/artclView.do?layout=unknown",
-      "date": "2026-06-08",
-      "source": "경영학과 취업게시판",
-      "description": "울산항만공사에서는 청년들에게 실무경험 및 직무역량 향상 기회를 제공하기 위한 체험형 청년인턴제도를 운영하고 있습니다.이와 관련하여 관심있는 학생은 기한 내 신청해 주시기 바랍니다. 가. 모집분야: 체험형청년인턴- 신청 대상자: 부산대학교 경영학과 재 휴학생 또는 졸업생- 유의사항: 재학생의 경우, 「부산대학교 출석인정에 관한 세부지침」에 따라 체험형 인턴 참여에 따른 출석인정은 불가합니다. * 자세한 내용은 첨부파일을 확인해 주시기 바랍니다.나. 근무기간: 2026. 7. 1. ~ 2026. 12. 31.(6개월)다. 근무장소:",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442278/artclView.do?layout=unknown",
-      "title": "[롯데그룹] 3·6·9·12 예측가능한 롯데그룹 채용 안내(6/2~)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442278/artclView.do?layout=unknown",
-      "date": "2026-06-02",
-      "source": "경영학과 취업게시판",
-      "description": "* 채용 관련 홈페이지 바로가기 링크: https://recruit.lotte.co.kr/",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1442275/artclView.do?layout=unknown",
-      "title": "[학생처] 금정구 진로교육지원센터 사무원 채용 안내(~6/16)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1442275/artclView.do?layout=unknown",
-      "date": "2026-06-02",
-      "source": "경영학과 취업게시판",
-      "description": "학생처에서 금정구 진로교육지원센터의 원활한 운영을 위하여 센터에서 근무할 사무원을 붙임과 같이 채용하고자 하오니 기한 내 지원바랍니다.1. 채용분야 및 인원분야인원근무부서담당 업무사무원1명부산대학교 학생처 학생과 및 금정구 진로교육지원센터○ 금정구 진로교육지원센터 관련 업무○ 특성화 프로그램 운영, 예산 실무 등 기타 금정구 진로교육지원센터 업무 분장에 따름2. 응시자격 : 채용예정 직무 분야 관련 학과(전공) 학사학위 취득(예정)자※ 2026년 8월 학사학위 취득 예정자도 지원 가능3. 채용방법 : 학생처 자체 계약직 공개경쟁채용",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1441953/artclView.do?layout=unknown",
-      "title": "[취업전략과] SNF Korea(주) 추천채용 안내(~6/7)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1441953/artclView.do?layout=unknown",
-      "date": "2026-06-01",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 SNF Korea(주) 추천채용을 아래와 같이 알려드리니, 소속 학생이 지원할 수 있도록 학과 홈페이지 등을 통해 적극적으로 안내하여 주시기 바랍니다.1. 근무조건근무형태근무일시근무지역연봉정규직(수습기간 3개월)(평일)09:00 ~ 18:00울산 남구 여천로 215-100SNF Korea 울산 공장4,800만원 이상(경영성과금 포함)2. 추천개요 ※ 추천자 선발 시 서류전형 가점 부여연번모집분야담당업무추천인원1R D팀(연구개발)- 제품 연구 및 개발, 응용분야 연구 및 개발3명2관리팀(인사총무)인사/총무 관리 전반,",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1441636/artclView.do?layout=unknown",
-      "title": "[미래에셋] TAMS 글로벌 금융인 양성과정 16기 & 부산 5기 모집(~5/29)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1441636/artclView.do?layout=unknown",
-      "date": "2026-05-26",
-      "source": "경영학과 취업게시판",
-      "description": "■ 모집개요- 미래에셋금융서비스에서 진행하는 대외활동 프로그램입니다.- 여름방학 2주간 알찬 내용으로 구성된 본 과정을 통해 여러분의 무궁한 가능성과 멋진 비전을 발견하세요.- 학점, 어학점수, 인턴경험 등 스펙을 배제하고 여러분의 열정과 가능성에 집중하여 선발합니다.- 프로그램을 통해 금융지식 습득 뿐만 아니라, 팀 과제, 세일즈 체험 등 다양한 경험을 얻을 수 있습니다. - 교육생 동기, 현직 선배님과 함께 진로 방향성을 공유하고, 구체화 할 수 있는 인적 네트워크가 형성됩니다. ■ 프로그램명- TAMS (Total Asset",
-      "category": "program",
-      "categoryName": "취업프로그램",
-      "color": "#D97706"
     }
   ]
 };
