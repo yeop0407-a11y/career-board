@@ -1,8 +1,85 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-02T02:36:36.944333+00:00",
+  "updated": "2026-09-03T02:42:48.655413+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458824/artclView.do?layout=unknown",
+      "title": "[KT&G] 2026년 하반기 KT&G 신입사원 채용 안내(~9/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458824/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "[KT G] 2026년 하반기 KT G 신입/경력사원 채용 접수기간 : 8/10(월) - 9/10(목) 15:00 까지 (한국시간 기준) 지원방법 : http://ktng.recruiter.co.kr 에서 온라인 지원",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458821/artclView.do?layout=unknown",
+      "title": "[DB손해보험] 2026년 신입사원 공개채용 안내(~10/2)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458821/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "[DB손해보험] 2026년 신입사원 공개채용 접수기간 : 9/1(화) - 10/2(금) 17:00 까지 지원방법 : https://dbgroup.recruiter.co.kr/ 에서 온라인 지원",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458817/artclView.do?layout=unknown",
+      "title": "[LX인터내셔널] 2026년 하반기 신입사원 채용 (채용연계형 인턴십) 안내(~9/20)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458817/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "https://apply.lxcareers.com/ *공고명 : [LX인터내셔널] 2026년 하반기 신입사원 채용(채용연계형 인턴십)■ 모집분야 지원사업 : 사업개발 및 운영, 기술지원 해외영업 사업기획 신사업개발 재경 ESG HR ■ 접수기간 : 9.1(화)~9.20(일)",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458809/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 2026학년도 현직자 선배 초청 TALK콘서트 플랫폼 운영 및 모집 안내(~10/31)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458809/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 우리 대학 졸업생 선배인 현직자를 초청하여 실제 취업 준비 과정과 기업별 채용정보, 직무 이해, 취업 성공전략 등 생생한 취업 노하우를 공유하고 학생들의 취업 역량을 강화하기 위한 플랫폼 운영을 아래와 같이 실시하오니, 많은 관심과 참여바랍니다.가. 프로그램명: 2026학년도 「현직자 선배 초청 TALK콘서트」나. 신청대상: 전체 대학(원) 전학년 재적생 및 졸업생다. 신청기간: 2026. 9. 2.(수) ~ 10. 31.(토)라. 신청방법: 플랫폼(https://pnu.insightjob.co.kr/) 회원가입",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458802/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 부산대학교 대학일자리플러스센터 사무원 채용 안내(~9/9)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458802/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "우리대학 학생성공개발원 대학일자리플러스센터의 원활한 운영을 위하여 센터에서 근무할 사무원을 아래와 같이 채용하고자 하오니 많은 지원바랍니다. 가. 채용분야 및 인원채용 분야채용인원계약기간담당업무근무부서대학일자리플러스센터사무원2명채용일로부터'27.2.28.까지-고용노동부 주관 사업 관련 전반 행정 업무부산대학교대학일자리플러스센터※ 채용자의 신분은 부산대학교 학생성공개발원 대학일자리플러스센터 소속 자체직원(계약직원)으로 공무원이 아님※ 단, 대학일자리플러스센터 사업 추진기간 내 업무평가를 통하여 1년 단위로 재계약할 수 있으며, 본 계",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458799/artclView.do?layout=unknown",
+      "title": "[대학일자리플러스센터] 2026 부산청년 MEGA 채용박람회 참가 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458799/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "1. 부산광역시와 부산경제진흥원에서 지역 청년의 취업 역량 강화 및 우수기업 취업 기회 제공을 위하여 「2026 부산청년 MEGA 채용박람회」를 다음과 같이 개최할 예정입니다.2. 우리 대학은 해당 박람회 내 부산대학교 대학일자리플러스센터 부스를 운영할 예정이오니 재적생 및 졸업생들의 많은 관심과 참여바랍니다.가. 행사명: 2026 부산청년 MEGA 채용박람회나. 일시: 2026. 9. 21.(월) 10:00~17:00 ※ 입장 마감 16:00다. 장소: 벡스코 제2전시장 1층 4A~4C홀라. 참가 대상: 청년 구직자 누구나마. 참",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458793/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 2026학년도 2학기 각종 취업 프로그램 설명회 개최 안내(9/9)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458793/artclView.do?layout=unknown",
+      "date": "2026-09-03",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 2026학년도 2학기 학생성공개발원에서 추진하는 각종 취업 프로그램(진로설계, 취업준비, 국내.외 현장실습, 추천채용, 채용설명회 등) 설명회를 다음과 같이 진행하오니 많은 관심과 신청바랍니다. 1. 행 사 명: 2026학년도 2학기 학생성공개발원 학생지원 각종 취업 프로그램 설명회2. 추진목적: 각종 진로.직무탐색- 취업으로 이어지는 취업지원체계 안내 등으로 대학생활부터 사회진출까지 함께하는 대학의 성공 모델 강화3. 일일시시: 26. 09. 09.(수) 17:304. 장장소소: 대학본관 3층 대회의실5. 참여",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458631/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 자기소개서 1:1 클리닉(4~5차) 참가자 모집 안내(4학년, 졸업생)",
@@ -475,83 +552,6 @@ window.POSTS_DATA = {
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447749/artclView.do?layout=unknown",
-      "title": "[취업전략과] (주)한국팜비오 추천채용 안내(~7/9)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447749/artclView.do?layout=unknown",
-      "date": "2026-07-01",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 (주)한국팜비오 추천채용을 아래와 같이 알려드리니, 관심있는 학생들의 많은 지원바랍니다.1. 근무조건모집분야근무형태근무시간근무지역연봉영업MR정규직(수습기간 3개월)(평일)08:30~17:30부산4,800만원2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여담당업무자격요건 및 우대사항추천인원대학병원 또는 병의원 영업 마케팅 활동전공 무관기졸업자 및 '26년 8월 졸업예정자(우대)화학/화학공학/생명/제약공학 등 관련 전공자제한없음3. 지원방법: 아래 서류를 '26. 7. 9.(목) 11:00까지 메일*(sunmi@pu",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447538/artclView.do?layout=unknown",
-      "title": "[대학일자리플러스센터] 일본 대기업 RAIZNEXT(레이즈넥스트) 온라인 채용설명회 참가자 모집(~7/3)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447538/artclView.do?layout=unknown",
-      "date": "2026-06-30",
-      "source": "경영학과 취업게시판",
-      "description": "대학일자리플러스센터에서는 재학생 및 졸업생의 해외 취업 역량 강화를 위하여 일본 플랜트 엔지니어링 분야 대기업인 RAIZNEXT(레이즈넥스트)와 연계한 온라인 채용설명회를 아래와 같이 운영하고자 하오니, 많은 관심과 지원바랍니다.가. 프로그램명: 일본 대기업 RAIZNEXT(레이즈넥스트) 온라인 채용설명회나. 일시: 2026. 7. 7.(화) 14:00 ~ 15:30다. 운영 방법: 비대면 진행 (ZOOM 활용 예정)라. 참가 대상* 일본 취업에 관심 있는 재학생, 대학원생 및 졸업생* 기업 채용요건(입사년도 기준 만 30세 미만)",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447513/artclView.do?layout=unknown",
-      "title": "[취업전략과] 케이에이에프(주) 추천채용 안내(조기 마감)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447513/artclView.do?layout=unknown",
-      "date": "2026-06-30",
-      "source": "경영학과 취업게시판",
-      "description": "2026.7.15. 09:36, 수정사항내부 사정에 따라 기업의 요청으로 추천채용 접수가 조기 마감되었음을 알려드립니다.=============취업전략과에서 케이에이에프(주) 추천채용을 아래와 같이 알려드리니, 많은 관심과 지원바랍니다.1. 근무조건모집분야근무형태근무지역해외영업정규직(수습기간 3개월)서울 마포구2. 추천개요구분세부내용추천학과- 전공 무관추천인원- 제한 없음담당업무- 해외영업(유럽 시장 신규 개척 등)- 해외 바이어 협상 및 계약 체결- 수출입 프로세스 관리- 시장조사 및 분석 보고서 작성 등",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447494/artclView.do?layout=unknown",
-      "title": "[취업전략과] 한국 딜로이트 그룹_안진 회계법인 채용설명회 일정 안내(7/16)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447494/artclView.do?layout=unknown",
-      "date": "2026-06-30",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 [한국 딜로이트 그룹] 안진 회계법인 채용설명회 일정을 아래와 같이 알려드리니, 많은 관심과 참여바랍니다. 1. 행사개요행 사 명개최일시개최장소[한국 딜로이트 그룹]안진 회계법인 채용설명회'26. 7. 16.(목) 14:00경영관 B동 213호2. 주요내용 : 2026년 신입 회계사 채용설명회 및 선배와의 대화3. 신청방법 : 당일 현장 참가 (사전신청 불요)4. 참가대상 : 기졸업자 및 3~4학년 재학생 (전공 무관) 붙임 채용설명회 홍보 포스터 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447492/artclView.do?layout=unknown",
-      "title": "[취업전략과] EY한영 회계법인 채용설명회 일정 안내(7/10)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447492/artclView.do?layout=unknown",
-      "date": "2026-06-30",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 EY한영 회계법인 채용설명회 일정을 아래와 같이 알려드리니, 많은 관심과 참여바랍니다.1. 행사개요행 사 명개최일시개최장소[EY한영] 한영 회계법인 채용설명회'26. 7. 10.(금) 10:00~12:00경영관 A동 212호2. 주요내용 : 2026년 신입 회계사 채용 안내3. 신청방법 : 사전신청(http://forms.gle/hUGPPzpAwJALmQ2L6) 후 현장 참가4. 참가대상 : 기졸업자 및 3~4학년 재학생 (전공 무관) 붙임 신입 공인회계사 모집 포스터 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447479/artclView.do?layout=unknown",
-      "title": "2027년 전국 지역인재 7급 수습직원 추천대비 예비대상자 모집 및 활동 지원 안내(~7/13)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447479/artclView.do?layout=unknown",
-      "date": "2026-06-30",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 2027년 전국 지역인재 7급 수습직원 추천선발에 대비하여 필기시험(psat) 및 면접 경쟁력을 향상시킬 수 있도록 예비대상자를 모집, 선발하여 활동을 지원하고자 하니 관심 있는 학생들의 많은 신청 바랍니다.",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1444659/artclView.do?layout=unknown",
-      "title": "[기술보증기금] 2026년 정규직 신입직원 채용공고(~6/30)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1444659/artclView.do?layout=unknown",
-      "date": "2026-06-25",
-      "source": "경영학과 취업게시판",
-      "description": "■ (접수기간) 2026. 6. 12.(금) 14:00 ~ 6. 30.(화) 16:00 (최종 제출 완료 기준)■ (접수방법) 채용 홈페이지(https://kibo.saramin.co.kr) 접수",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 };
