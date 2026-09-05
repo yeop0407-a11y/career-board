@@ -1,8 +1,52 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-04T02:40:05.708676+00:00",
+  "updated": "2026-09-05T02:41:24.734533+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459235/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] (주)인바디 추천채용 안내(~9/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459235/artclView.do?layout=unknown",
+      "date": "2026-09-04",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 (주)인바디 추천채용을 아래와 같이 알려드리니, 많은 관심과 지원바랍니다.1. 기업소개- 체성분 분석기기 등을 개발 제조하는 의료기기 전문기업- 2025년 기준 임직원 약 370명, 연간 매출액 약 2,399억원 규모의 기업2. 근무조건모집분야근무형태근무시간근무지급여 및 연봉GBD 통합직무정규직 전환형 인턴(평일)09:00~18:00서울특별시 강남구(인턴) 월 300만원(정규직 전환 시) 연 4,000만원 이상※ ㈜인바디 홈페이지: https://inbody.co.kr/3. 추천개요담당업무자격요건추천학과추천인원GB",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459234/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 현대건설 채용상담회 일정 안내(9/7)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459234/artclView.do?layout=unknown",
+      "date": "2026-09-04",
+      "source": "경영학과 취업게시판",
+      "description": "현대건설 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소현대건설 채용상담회?26. 9. 7.(월)10:00 ~ 17:00문창회관 2층 문창3실2. 주요내용 : 2026년 하반기 현대건설 신입사원 채용 관련 현직자 1:1 상담※ 모집분야 : 토목사업, 건축주택사업, 플랜트사업, NewEnergy사업, 지원본부, 안전품질3. 신청방법 : 당일 현장 참가4. 참가대상 : 현대건설 채용에 관심 있는 재학생 및 졸업(예정)자 등※ 채용 지원기간 : ~ 2026. 9. 29.(화) 17:00 붙임 [현대건설]",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459230/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 삼성생명 채용상담회 일정 안내(9/7~11)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459230/artclView.do?layout=unknown",
+      "date": "2026-09-04",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 삼성생명 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소삼성생명 채용상담회?26. 9. 7.(월) ~ 9. 11.(금)10:00 ~ 17:00문창회관 2층 문창2실2. 주요내용 : 2026년 하반기 삼성생명 신입사원 채용 관련 현직자 1:1 상담※ 모집분야 : 영업관리, 상품계리, 자산운용, 투자자산관리, 디지털서비스 기획/운영, IT서비스 기획/운영, 보험지원, 경영지원3. 신청방법 : 당일 현장 참가4. 참가대상 : 삼성생명 채용에 관심 있는 재학생 및 졸업(예정)자 등※ 참여혜",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459229/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 포스코 채용설명회 일정 안내(9/7)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459229/artclView.do?layout=unknown",
+      "date": "2026-09-04",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 포스코 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소포스코 채용설명회?26. 9. 7.(월)14:00 ~ 16:00문창회관 2층 다목적강의실12. 주요내용 : 2026년 하반기 포스코 대졸 신입사원 채용 관련 회사 및 채용전형 소개※ 이공계(생산기술, 설비기술, 공정기술, AI(사무DX), AI(제조AI), 안전 보건 환경), 인문계(마케팅, 구매(원료), 구매(설비자재), 재무, HR)3. 신청방법 : 당일 현장 참가4. 참가대상 : 포스코 채용에 관심 있는 재학생 및 졸업(예정",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458824/artclView.do?layout=unknown",
       "title": "[KT&G] 2026년 하반기 KT&G 신입사원 채용 안내(~9/10)",
@@ -508,50 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448390/artclView.do?layout=unknown",
-      "title": "[취업전략과] 자기소개서 1:1 클리닉 참가자 모집 안내(~7/30)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448390/artclView.do?layout=unknown",
-      "date": "2026-07-08",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 수시 채용 및 하반기 채용에 대비하여 다음과 같이 자기소개서 실전반을 운영하오니 많은 관심과 신청바랍니다. 1. 모집대상 : 전체학과(부) 4학년 이상 재학생?휴학생 및 졸업생(졸업 후 1년이내)2. 신청기간 : 2026. 7. 9.(목) 09:00 ~ 2026. 7. 30.(목) 23:00 / 단, 선착순 마감되면 조기종료3. 신청방법 : 학생역량지원시스템 비교과활동 취업지원 자기소개서 실전반(2차)4. 선발인원 : 총 72명5. 프로그램 개요운영기간참여시간참여혜택운영방법교육내용26.7.10.(금)~26.",
-      "category": "program",
-      "categoryName": "취업프로그램",
-      "color": "#D97706"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448238/artclView.do?layout=unknown",
-      "title": "[취업전략과] 오션케트워크익스프레스코리아(주) 추천채용 안내(~7/9)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448238/artclView.do?layout=unknown",
-      "date": "2026-07-07",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 오션케트워크익스프레스코리아주식회사 추천채용을 아래와 같이 알려드리니, 희망하는 학생은 기한 내 신청바랍니다. 1. 근무조건모집분야근무형태근무시간근무지역연봉환적업무팀TS/Feeder Operation정규직(수습기간 3개월)(평일)09:00~18:00(시차출퇴근제 시행)부산4,400만원(수습기간 3개월간급여 85% 지급)※오션케트워크익스프레스 홈페이지 주소: www.one-line.com2. 추천개요 ※ 추천자 선발 시 서류전형 가산점 부여담당업무자격요건 및 우대사항추천인원해상물류 운영 전반(세관 신고, 환적 관리 등)",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448045/artclView.do?layout=unknown",
-      "title": "2026-2학기 HD현대 채용연계형 현장실습학기제 참여 학생 모집 안내(~7/15)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448045/artclView.do?layout=unknown",
-      "date": "2026-07-06",
-      "source": "경영학과 취업게시판",
-      "description": "현장실습지원센터에서 HD현대그룹에서 2026학년도 2학기 채용연계형 현장실습학기제에 참여할 학생을 모집하오니 관심있는 학생들은 기한 내 지원바랍니다. 가. 지원자격 : '26년 8월/ '27년 2월 졸업예정자('27년 1월 정식 입사 가능자)나. 모집기업 : HD현대중공업 등 6개 기업다. 실습기간 : '26.09.01.(화)~12.18.(금)라. 채용연계 : 실습기간 중 임원면접 실시(12월 초 예정) 후 합격 시 '' 2 7.1월 신입사원 자격으로 입사마. 지원일정 : 7.15(수)까지 포스터 내 QR코드를 통해 지원서 접수",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1447787/artclView.do?layout=unknown",
-      "title": "학.석.박사 연계과정 안내",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1447787/artclView.do?layout=unknown",
-      "date": "2026-07-02",
-      "source": "경영학과 취업게시판",
-      "description": "",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
     }
   ]
 };
