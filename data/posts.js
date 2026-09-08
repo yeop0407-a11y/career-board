@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-07T02:36:34.557813+00:00",
+  "updated": "2026-09-08T02:49:19.221452+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459651/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] LIG D&A 채용상담회 일정 안내(9/8)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459651/artclView.do?layout=unknown",
+      "date": "2026-09-08",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 LIG D A 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소LIG D A 채용상담회'26. 9. 8.(화)10:00 ~ 17:00문창회관 2층 문창3실2. 주요내용 : 2026년 LIG D A 신입 및 경력사원 채용 관련 현직자 1:1 상담※ 모집분야 : R D, 국내/해외사업, 경영관리/지원, 생산기술, 품질, 공정기술 등3. 신청방법 : 당일 현장 참가4. 참가대상 : LIG D A 채용에 관심 있는 재학생 및 졸업(예정)자 등※ 상담 참여자 대상 소정의 기념품 제공 붙임 1.",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459649/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 삼성중공업 채용설명회 및 상담회 일정 안내(9/8)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459649/artclView.do?layout=unknown",
+      "date": "2026-09-08",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 삼성중공업 채용설명회 및 상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소삼성중공업 채용설명회'26. 9. 8.(화) 12:00 ~ 13:00기계관 2층 대강당삼성중공업 채용상담회'26. 9. 8.(화) ~ 9. 9.(수)9:00 ~ 17:00기계관 2층 대강당 로비2. 주요내용 : 2026년 하반기 삼성중공업 신입사원 채용 관련 채용설명회 및 현직자 1:1 상담※ 모집분야 : 설계(기본/조선/해양), 공정관리, 안전, PM, 구매, R D, 자동화솔루션, 해외영업, 경영지원, 경영지원(",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459235/artclView.do?layout=unknown",
       "title": "[학생성공개발원] (주)인바디 추천채용 안내(~9/10)",
@@ -530,28 +552,6 @@ window.POSTS_DATA = {
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448963/artclView.do?layout=unknown",
-      "title": "[취업전략과] (주)보쉬렉스로스코리아 추천채용 안내(~7/13, MIS계열 등)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448963/artclView.do?layout=unknown",
-      "date": "2026-07-10",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 ㈜보쉬렉스로스코리아 추천채용을 아래와 같이 안내드립니다.1. 근무조건모집분야근무형태근무시간근무부서연봉CTG(Controlling)정규직(평일)08:45~17:45(유연근무 및 재택근무주 1회 가능)부산 본사3,900만원(연봉 및 복지카드 포함)※ (주)보쉬렉스로스코리아 홈페이지 주소: www.boschrexroth.com2. 추천개요 ※ 추천자 선발 시 서류전형 가점혜택담당업무자격요건 및 우대사항추천인원SAT 기반 IT 비즈니스 시스템 운영 및 AI?데이터 기반 비즈니스 지원 업무 수행- 경영정보.컴퓨터공학과 등 관련",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1448945/artclView.do?layout=unknown",
-      "title": "[취업전략과] (주)위비스 추천채용 안내(~7/13)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1448945/artclView.do?layout=unknown",
-      "date": "2026-07-09",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 ㈜위비스 추천채용을 아래와 같이 알려드립니다.1. 근무조건모집분야근무형태근무시간근무부서연봉영업부정규직(수습기간 3개월)(평일)09:00~18:00패션브랜드 지센 영업팀(부산근무)4,000만원(식대포함)※(주)위비스 홈페이지 주소: wivis.applyin.co.kr2. 추천개요 ※ 추천자 선발 시 서류면제담당업무자격요건 및 우대사항추천인원매장 영업전략 수립, 매출 분석 및 대외 커뮤니케이션 업무 수행전공 무관기졸업자 및 ?27년 2월 졸업예정자(우대)장교 출신(전역예정자 포함), 4학년 재학생, 관련 업종 경험자10명",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
