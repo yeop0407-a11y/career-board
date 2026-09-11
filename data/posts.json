@@ -1,7 +1,40 @@
 {
-  "updated": "2026-09-10T02:50:23.569359+00:00",
+  "updated": "2026-09-11T02:44:14.067540+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462277/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 대한민국 육군 학사장교 모집설명회 일정 안내(9/11)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462277/artclView.do?layout=unknown",
+      "date": "2026-09-11",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 대한민국 육군 학사장교 모집 설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소대한민국 육군학사장교 모집 설명회'26. 9. 11.(금)14:00 ~ 15:00문창회관 2층 다목적강의실12. 주요내용 : 대한민국 육군 학사장교 및 학사 예비장교 모집 관련 지원자격, 선발절차, 복무 및 주요 혜택 안내※ 대학 1~3학년은 학사 예비장교, 대학 4학년 및 기졸업자는 학사장교 지원 가능3. 신청방법 : 사전 신청 및 당일 현장 참가※ 신청 링크: https://form.naver.com/resp",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1461526/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] IBK기업은행 채용설명회 및 상담회 일정 안내(9/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1461526/artclView.do?layout=unknown",
+      "date": "2026-09-10",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 IBK기업은행 채용설명회 및 상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소IBK기업은행 채용설명회'26. 9. 10.(목) 15:30 ~ 17:00경영관 108호IBK기업은행 채용상담회'26. 9. 10.(목) 10:00 ~ 17:00문창회관 2층 문창3 4실2. 주요내용 : 2026년 하반기 IBK기업은행 신입행원 채용 안내 및 현직자 1:1 상담3. 신청방법- 채용설명회 : 당일 현장 참가- 채용상담회 : 당일 현장 참가4. 참가대상 : IBK기업은행 채용에 관심 있는 재학생 및",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1461525/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 두산에너빌리티 채용상담회 일정 안내(9/10)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1461525/artclView.do?layout=unknown",
+      "date": "2026-09-10",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 두산에너빌리티 채용상담회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소두산에너빌리티 채용상담회'26. 9. 10.(목)10:00 ~ 17:00기계관 지하 1층 로비2. 주요내용 : 2026년 두산에너빌리티 신입사원 채용 관련 현직자 1:1 상담※ 모집분야 : 설계, 생산, 시공, 시운전, 품질, R D, EHS, 사업관리, 구매, 재무3. 신청방법 : 당일 현장 참가4. 참가대상 : 두산에너빌리티 채용에 관심 있는 재학생 및 졸업(예정)자 등5. 참가혜택 : 상담 완료자 대상 기념품(보조배터",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459854/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 한화엔진 채용설명회 및 상담회 일정 안내(9/10)",
@@ -518,39 +551,6 @@
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1452617/artclView.do?layout=unknown",
-      "title": "[취업전략과] 2026학년도 취업 Skill UP 프로그램(1차) 참가자 모집 안내(~8/4)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1452617/artclView.do?layout=unknown",
-      "date": "2026-07-27",
-      "source": "경영학과 취업게시판",
-      "description": "우리 대학 학생들의취업전략과에서 데이터 분석 및 AI 활용 역량 강화를 위한 데이터분석준전문가(ADsP) 및 AI프롬프트 활용능력(AI-POT) 자격증 취득 목적의 프로그램을 아래와 같이 실시하고자 하오니, 많은 관심과 신청 바랍니다.가. 프로그램명: 2026학년도 「취업 Skill UP 프로그램(1차)」나. 신청대상: 전체 대학(원) 전학년 여학생 및 SAM분야* 재적생* SAM분야: 인문대학, 사회과학대학, 자연과학대학, 생활과학대학, 예술대학 소속 남녀 학생다. 신청기간: '26. 7. 27.(월) ~ 8. 4.(화) 17:0",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1452615/artclView.do?layout=unknown",
-      "title": "[취업전략과] (주)한텍 추천채용 안내(~8/2)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1452615/artclView.do?layout=unknown",
-      "date": "2026-07-27",
-      "source": "경영학과 취업게시판",
-      "description": "취업전략과에서 ㈜한텍 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1973년 설립된 화공기기 전문기업으로 열교환기, 압력용기, 반응기, 저장탱크 등 플랜트 핵심 설비를 설계 제작하는 기업- 정유 석유화학, LNG, 원자력, 친환경 에너지 분야의 국내외 프로젝트를 수행하는 코스닥 상장기업2. 근무조건모집분야근무형태근무시간근무지연봉경영관리부 관리팀 회계담당정규직(평일)08:00~17:00울산광역시 울주군3,890만원 이상※ ㈜한텍 홈페이지 주소: https://hantechltd.com/3. 추천개요담당업무자격요건추천학과추천인원",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1452612/artclView.do?layout=unknown",
-      "title": "[학생처] 현장실습지원센터 사무원(육아휴직대체) 채용 안내(~8/5)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1452612/artclView.do?layout=unknown",
-      "date": "2026-07-27",
-      "source": "경영학과 취업게시판",
-      "description": "우리 처 현장실습지원센터의 원활한 운영을 위하여 센터에서 근무할 사무원(육아휴직대체)을 붙임과 같이 공개채용하고자 하오니, 많은 관심과 신청바랍니다.1. 채용분야 및 인원분야인원근무부서담당 업무사무원(육아휴직대체)1명부산대학교 학생처현장실습지원센터○ 국내 외 현장실습 프로그램 운영 지원○ 현장실습 교과목 운영 및 행정업무○ 기업 발굴 및 관리, 취업지원 프로그램 운영 지원○ 기타 현장실습지원센터 업무 분장에 따름2. 응시자격 : 채용예정 직무 분야 관련 학과(전공) 학사학위 취득(예정)자※ 2026년 8월 학사학위 취득 예정자도 지",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 }
