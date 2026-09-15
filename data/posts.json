@@ -1,7 +1,51 @@
 {
-  "updated": "2026-09-14T03:06:18.029814+00:00",
+  "updated": "2026-09-15T03:08:13.498730+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462708/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 네조트(주) 채용설명회 일정 안내(9/16)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462708/artclView.do?layout=unknown",
+      "date": "2026-09-15",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 네조트(주) 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소네조트(주) 채용설명회'26. 9. 16.(수) 12:00~13:00문창회관 2층 다목적강의실12. 주요내용 : 네조트㈜ 기업 및 주요 직무 소개, 2027년 상반기 신입사원 채용 전형 안내 및 질의응답※ 모집 직무 : 웹개발자(프로그래머)3. 신청방법 : 사전신청(권장) 또는 당일 현장 참가※ 신청 링크 : https://forms.gle/Ln7St6fRGSaDXNUL94. 참가대상 : 네조트(주) 채용 및 일본 취업에 관",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462706/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 티에스전자(주) 추천채용 안내(~9/20)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462706/artclView.do?layout=unknown",
+      "date": "2026-09-15",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 티에스전자(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1997년 설립되어 외국계 반도체 유통 및 연구개발 기술협력 사업을 수행하는 기업- 국내 대기업의 가전 및 전장 제품군을 대상으로 반도체 관련 연구개발 기술지원 마케팅 업무를 수행하는 기업2. 근무조건모집분야근무형태근무시간근무지연봉(기술연구실)반도체 기술연구개발(SW HW)정규직(평일)09:00~18:00※ 유연근무제 운영서울특별시 송파구3,800~4,000만원 이상※부서별 상이(영업본부)반도체 마케팅 기술영업※ 티에스전자(주) 홈페이지: http",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462689/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] TKG태광 추천채용 안내(~9/20)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462689/artclView.do?layout=unknown",
+      "date": "2026-09-15",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 TKG태광 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 나이키 신발 개발 및 제조를 담당하는 ODM 기업- 1970년 설립되어 약 950명의 임직원이 근무하고 있으며, 2025년 기준 매출액 약 2.8조원 규모의 기업2. 근무조건모집분야근무형태근무시간근무지연봉PM, Costing, 금형개발, 금형 치공구개발, 화공기술, 패턴설계정규직(평일)08:00~17:00경상남도 김해시4,300만원 이상※ TKG태광 홈페이지: https://tkg.taekwang.com/index.do3. 추천개요담당업무자격요건추천학과",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462574/artclView.do?layout=unknown",
+      "title": "[대우건설] 2026년 하반기 신입사원 채용 안내(~9/30)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462574/artclView.do?layout=unknown",
+      "date": "2026-09-14",
+      "source": "경영학과 취업게시판",
+      "description": "[대우건설] 2026년 하반기 신입사원 채용(~9/30, 23:59)- 채용분야 : 건축, 토목, 기계, 전기, 원자력, 안전보건, 중기, 사업, 경영지원- 접수기간 : 9/10(목) ~ 9/30(수) 23:59- 접수방법 : 홈페이지 접수- https://recruit.daewooenc.com/daewooenc2026.html",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462470/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 한국전력공사 채용설명회 일정 안내(9/15)",
@@ -507,50 +551,6 @@
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456234/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 성균관대학교 삼성창원병원 추천채용 안내(~8/27, 졸업생 등_연봉 4,700)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456234/artclView.do?layout=unknown",
-      "date": "2026-08-19",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 성균관대학교 삼성창원병원 추천채용을 아래와 같이 알려드리오니, 많은 관심과 지원바랍니다.1. 기업소개- 성균관대학교 삼성창원병원은 창원시 유일의 상급종합병원으로, 삼성의료원을 이루는 3개 병원 중 하나이며 지역의 중증 고난도 의료를 담당하는 의료기관- 약 2,500명의 임직원이 근무하고 있으며, 진료 연구 교육 등 다양한 분야에서 전문적인 의료서비스를 제공- 삼성의료원의 의료 인프라와 체계를 기반으로 지역사회 의료서비스 향상 및 우수 의료인력 양성에 기여2. 근무조건모집분야근무형태근무시간근무지연봉일반행정직, 전산직",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1455337/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] (주)에스엠지아이(SMGI) 추천채용 안내(~9/1)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1455337/artclView.do?layout=unknown",
-      "date": "2026-08-14",
-      "source": "경영학과 취업게시판",
-      "description": "㈜에스엠지아이(SMGI) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 부산에 연구개발(R D) 센터를 둔 제조기업- 가스 석유 및 에너지 산업을 위한 솔루션을 제공하며 국내 유일의 무용접(Seamless) 샘플링 실린더 제조사2. 근무조건모집분야근무형태근무시간근무지연봉해외영업, 관리 회계, 품질, 설계정규직(수습기간 3개월)(평일)09:30~18:00부산광역시 강서구3,400~3,450만원※ 직무별 상이※ 성과급 별도 지급※ ㈜에스엠지아이(SMGI) 홈페이지: www.smgi-cylinder.com3. 추천개요담당업무자격요건",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1455259/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 한국이네오스스티롤루션(주) 추천채용 안내(~8/17)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1455259/artclView.do?layout=unknown",
-      "date": "2026-08-13",
-      "source": "경영학과 취업게시판",
-      "description": "한국이네오스스티롤루션(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- ABS 합성수지 및 PS(폴리스티렌)를 주요 생산품으로 하는 제조기업2. 근무조건모집분야근무형태근무시간근무지연봉구매팀(Site Buyer)정규직(수습 6개월)(평일)08:00~17:00울산광역시 남구4,000만원 중반※ 한국이네오스스티롤루션(주) 홈페이지: https://jobs.ineos-styrolution.com/?locale=ko_KR3. 추천개요담당업무자격요건추천학과추천인원간접구매(Indirect Procurement) 업무, 구매 전략 수립 등",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1455257/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 소나테크(주) 추천채용 안내(~9/7, 기간연장)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1455257/artclView.do?layout=unknown",
-      "date": "2026-08-13",
-      "source": "경영학과 취업게시판",
-      "description": "* 2026. 8. 27. 13:15, 변경사항: 신청기간 연장학생성공개발원에서 소나테크(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 해양탐사장비 전문 제조기업으로, 해양 수중 분야에 활용되는 장비의 개발 및 제조를 주요 사업으로 영위하는 기업- 국내외 국방분야(해군) 관련 영업 및 해외영업 등을 수행하며 해양탐사장비 분야의 사업을 추진하고 있는 기업2. 근무조건모집분야근무형태근무시간근무지연봉경영관리사업부(영업)정규직(평일)09:00~18:00부산광역시 남구4,000만원 이상※ 연봉 포함 금액으로 기본급의 200% 상여",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 }
