@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-16T03:04:48.267964+00:00",
+  "updated": "2026-09-17T03:08:49.902383+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463046/artclView.do?layout=unknown",
+      "title": "[대학일자리플러스센터] 2026년도 금정구 지역청년을 위한 자기소개서 완성 실전반 모집 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463046/artclView.do?layout=unknown",
+      "date": "2026-09-16",
+      "source": "경영학과 취업게시판",
+      "description": "부산대학교 대학일자리플러스센터에서는 금정구청 지원금을 기반으로 금정구 지역청년의 취업 역량 강화를 위하여 기업 제출 수준의 자기소개서 작성을 지원하는 프로그램을 다음과 같이 운영하오니, 많은 관심과 지원바랍니다.O 2026 자기소개서 완성 실전반항목내용대상18세~39세 금정구 미취업 청년운영 방식온라인 실시간 비대면(Zoom) 1:1 맞춤형 컨설팅모집 인원총 48명 (회차별 12명)운영 일시1차 10. 6. ~ 10. 8. / 2차 10. 13. ~ 10. 15. / 3차 10. 20. ~ 10. 22. / 4차 10. 27. ~",
+      "category": "program",
+      "categoryName": "취업프로그램",
+      "color": "#D97706"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462708/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 네조트(주) 채용설명회 일정 안내(9/16)",
@@ -540,17 +551,6 @@
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456239/artclView.do?layout=unknown",
-      "title": "[한국예탁결제원] 2026 하반기 공개 채용(~9/1)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456239/artclView.do?layout=unknown",
-      "date": "2026-08-19",
-      "source": "경영학과 취업게시판",
-      "description": "한국예탁결제원에서 2026 하반기 공개 채용을 진행 중입니다.온라인 설명회 참여자도 모집 중이니 많은 관심과 지원 부탁드립니다.■ 채용분야 및 모집인원 일반 : 경영(11명), 경제(7명), 수리통계(2명), 법(5명) IT(13명) 보훈(4명) ■ 접수기간 : 8.18(화)~9.1(화) ■ 채용 절차 1. 1차 전형 : 서류 심사 2. 2차 전형 : 인성검사 필기시험 3. 3차 전형 : 실무면접 4. 4차 전형 : 임원면접 5. 최종합격 ■ 지원방법 : 하기 링크를 통한 지원https://ksd.saramin.co.kr",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 }
