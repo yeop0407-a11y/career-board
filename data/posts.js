@@ -1,8 +1,41 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-17T03:08:49.902383+00:00",
+  "updated": "2026-09-18T02:56:09.911256+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463506/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 일본취업 설명회 일정 안내(9/18)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463506/artclView.do?layout=unknown",
+      "date": "2026-09-18",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 ㈜비웰코리아(KOREC) 일본취업 설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소(주)비웰코리아(KOREC) 일본취업 설명회'26. 9. 18.(금) 15:00~16:00기계관 지하 1층 국제회의장2. 주요내용 : 일본 취업 준비 방법 및 실제 취업 성공 사례 소개, 면접 자기소개서 준비 노하우 등3. 신청방법 : 사전신청(권장) 또는 당일 현장 참가※ 신청 링크 : https://forms.gle/vw4bAMKt1o9uLo2z64. 참가대상 : 일본 취업에 관심 있는 재학생 및 졸업(",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463503/artclView.do?layout=unknown",
+      "title": "[현대그룹] 2026 하반기 현대그룹 신입 매니저 채용(~9/22)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463503/artclView.do?layout=unknown",
+      "date": "2026-09-18",
+      "source": "경영학과 취업게시판",
+      "description": "접수기간 : 9/1(화) - 9/22(화) 까지 지원방법 : https://careers.hyundaigroup.com/ 에서 온라인 지원",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463498/artclView.do?layout=unknown",
+      "title": "[신세계그룹] 2027년 신입사원 채용 안내(~10/12)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463498/artclView.do?layout=unknown",
+      "date": "2026-09-18",
+      "source": "경영학과 취업게시판",
+      "description": "▶ 모집 회사 : 신세계백화점, 이마트, 신세계프라퍼티, 스타벅스,신세계인터내셔날, 신세계아이앤씨, 신세계디에프, 신세계푸드,신세계라이브쇼핑, 신세계센트럴▶ 접수 기간: 2026년 9월 18일(금)-10월 12일(월) 18시까지 ▶ 전형 절차: 서류 전형 면접 전형 건강검진 입사▶ 지금 바로 지원하기 : https://job.shinsegae.com/",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463046/artclView.do?layout=unknown",
       "title": "[대학일자리플러스센터] 2026년도 금정구 지역청년을 위한 자기소개서 완성 실전반 모집 안내",
@@ -519,39 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1457555/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 화천기계(주) 추천채용 안내(~9/2)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1457555/artclView.do?layout=unknown",
-      "date": "2026-08-27",
-      "source": "경영학과 취업게시판",
-      "description": "화천기계(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1975년 설립된 공작기계 및 자동차부품 전문기업으로, 공작기계 제조 판매 및 자동차부품 생산 사업을 운영- 서울 서초구 본사를 비롯하여 전국 7개 영업사업소 및 경남 창원 생산공장을 운영하고 있으며, 약 280명의 임직원이 근무- 2025년 기준 연간 매출액 약 2,145억원 규모의 코스피 상장기업2. 근무조건모집분야근무형태근무시간근무지급여 및 연봉해외영업정규직 전환형 인턴(3개월)(평일)09:00~18:00서울특별시 서초구(인턴) 월 250만원 ※ 정규직 전환시",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456353/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] (주)세아제강 추천채용 안내(~8/24)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456353/artclView.do?layout=unknown",
-      "date": "2026-08-21",
-      "source": "경영학과 취업게시판",
-      "description": "㈜세아제강 추천채용을 아래와 같이 알려드리니, 소속 학생이 지원할 수 있도록 학과 홈페이지 등을 통해 적극적으로 안내하여 주시기 바랍니다.1. 기업소개- 강관 제조를 주요 사업으로 영위하는 기업으로, 국내외 에너지 건설 산업 분야에 다양한 강관 제품을 공급- 서울시 마포구 세아타워에 본사를 두고 있으며, 생산 및 연구개발 거점을 기반으로 강관 제조 분야의 사업을 운영2. 근무조건모집분야근무형태근무시간근무지연봉생산기술, 품질관리, 국내영업 등정규직(평일)08:30~17:30서울, 포항, 부산, 창원, 순천5,000만원※ 경영 성과에",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1456253/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 2026학년도 제18기「선배와 손잡(Job)기」멘토 모집 안내",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1456253/artclView.do?layout=unknown",
-      "date": "2026-08-20",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서는 재직 중인 동문 선배로부터 기업 입사에 필요한 경험적 정보를 재적생에게 전수하고, 재적생과 동문 선배 간 인적 네트워크 구축 및 애교심 고취를 위하여 '제18기 선배와 손잡(Job)기' 멘토링 프로그램을 운영합니다. 이에 따라 프로그램에 참여할 멘토를 아래와 같이 모집하오니, 졸업생들의 많은 참여바랍니다. 제18기 선배와 손잡(Job)기 멘토(현직 동문선배) 모집 개요 - 참여대상 : 현업(공공기관, 사기업 등)에 정규직으로 재직 중인 본교 졸업생 4개월간 멘토링 활동이 가능하고, 이전 멘토링 활동에 문제가",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
     }
   ]
 };
