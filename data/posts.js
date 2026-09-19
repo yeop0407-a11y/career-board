@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-18T02:56:09.911256+00:00",
+  "updated": "2026-09-19T02:54:09.317879+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463565/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 교원그룹Wells 추천채용 안내(~9/26)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463565/artclView.do?layout=unknown",
+      "date": "2026-09-18",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 교원그룹Wells 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 교원그룹의 환경가전 브랜드로 정수기, 공기청정기 등 생활가전 및 관련 서비스를 제공하는 기업- 영업관리(BM), 교육기획, 조직관리 등을 통해 지역별 영업조직의 운영 및 성장을 지원2. 근무조건모집분야근무형태근무시간근무지연봉Wells 영업관리(BM)정규직(평일)09:00~18:00Wells 매니저영업조직 경남센터4,000만원 이상※ 교원그룹Wells 홈페이지: https://www.kyowonwells.com/3. 추천개요담당업무자격요건 및 우대",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463506/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 일본취업 설명회 일정 안내(9/18)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1457559/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] ICEI우방(주) 추천채용 안내(~9/4)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1457559/artclView.do?layout=unknown",
-      "date": "2026-08-27",
-      "source": "경영학과 취업게시판",
-      "description": "ICEI우방(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1984년 설립된 화학제품 제조 전문기업으로, 섬유용 방사유제 및 산업조제 등 화학제품을 개발 생산- 경남 양산시에 소재하고 있으며, 약 65명의 임직원이 근무하는 연간 매출액 약 390억원 규모의 기업- 매출액의 70% 이상을 수출하고 있는 수출전문기업으로, 중국 등 다양한 해외시장을 대상으로 사업을 운영2. 근무조건모집분야근무형태근무시간근무지연봉구매정규직(평일)07:50~16:50경남 양산시(학사) 연 3,800만원(석사) 연 4,400만원※ 실적에 따른 연말",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
