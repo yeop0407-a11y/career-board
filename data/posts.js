@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-22T03:02:49.964875+00:00",
+  "updated": "2026-09-23T03:03:04.347803+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463938/artclView.do?layout=unknown",
+      "title": "학생성공개발원 현장실습지원센터 사무원(육아휴직대체) 채용 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463938/artclView.do?layout=unknown",
+      "date": "2026-09-23",
+      "source": "경영학과 취업게시판",
+      "description": "우리 대학 학생성공개발원 현장실습지원센터의 원활한 운영을 위하여 센터에서 근무할 사무원(육아휴직대체)을 공개채용합니다.1. 채용분야 및 인원분야인원근무부서담당 업무사무원(육아휴직대체)1명부산대학교 학생성공개발원현장실습지원센터○ 국내 외 현장실습학기제 실무 담당○ 현장실습학기제 교육과정 운영 및 학점처리, 참여기업 및 학생 지원 업무○ 현장실습지원센터 온라인시스템 관리 등○ 기타 현장실습지원센터 업무 분장에 따름2. 응시자격- 학사학위 이상 취득자 및 채용일(2026. 10. 16. 예정) 이전 취득 예정자- 대학원 재학생의 경우 주",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463800/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 부산대학교 졸업생 취업정보 오픈채팅방 안내",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458356/artclView.do?layout=unknown",
-      "title": "[한화오션] 2026 하반기 신입사원 채용 및 런치 채용 설명회 안내(9/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458356/artclView.do?layout=unknown",
-      "date": "2026-09-01",
-      "source": "경영학과 취업게시판",
-      "description": "Begin Here, Your First Wave2026 하반기 한화오션 신입사원 채용 및 채용 행사 사전신청을 진행하오니, 많은 관심 부탁드립니다.[2026 하반기 한화오션 신입사원 채용]- 지원기간 : 2026.9.14 - 9.30 - 지원방법 : 한화오션 채용홈페이지(recruit-hanwhaocean.com)을 통한 온라인 지원- 모집분야 : 설계, 영업/사업관리/구매, 생산관리, AX, 연구개발, 경영지원- 채용 정보 자세히 보기 : https://recruit-hanwhaocean.com/ko/2026newrecruits",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 };
