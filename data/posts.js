@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-23T03:03:04.347803+00:00",
+  "updated": "2026-09-24T02:54:25.898565+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464083/artclView.do?layout=unknown",
+      "title": "[경영학과] 영화금속(주) 회계·재무 추천채용 안내(~10/2)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464083/artclView.do?layout=unknown",
+      "date": "2026-09-23",
+      "source": "경영학과 취업게시판",
+      "description": "경영학과 기졸업자 또는 2027년 2월 이내 졸업(예정)자 대상으로 영화금속(주) 추천채용(회계 재무 분야)을 아래와 같이 진행하고자 하오니, 많은 관심과 지원바랍니다.1. 기업 개요 (영화금속주식회사)- 기업 구분: 코스닥(KOSDAQ) 상장회사 (중견기업)- 주요 사업: 자동차 부품 주조(회주철) 및 가공, 스테인리스 주강 제품 제조- 본사 위치: 경상남도 창원시 진해구 웅천서로 57- 홈페이지: http://www.yeonghwa.co.kr2. 사업장 현황 구분1공장2공장함안공장밀양공장 설립일1977.052001.042017.",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463965/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] CJ프레시웨이 추천채용 안내(~9/28)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1463965/artclView.do?layout=unknown",
+      "date": "2026-09-23",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 CJ프레시웨이 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 대한민국을 대표하는 식자재 유통 및 푸드서비스 전문 기업으로, 국내 최고 수준의 인프라와 핵심역량을 기반으로 식문화 트렌드와 고객 사업환경에 최적화된 솔루션을 제공하는 기업- 식자재 유통 및 푸드서비스를 중심으로 물류 IT 제조 식품안전 등 다양한 인프라와 전문성을 바탕으로 고객 맞춤형 서비스를 제공- 연간 매출액 약 3.5조원, 종업원 수 8,228명 규모의 기업2. 근무조건모집분야근무형태근무시간근무지연봉영업 물류정규직(평일)09:00~18:00※",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1463938/artclView.do?layout=unknown",
       "title": "학생성공개발원 현장실습지원센터 사무원(육아휴직대체) 채용 안내",
@@ -527,28 +549,6 @@ window.POSTS_DATA = {
       "date": "2026-09-02",
       "source": "경영학과 취업게시판",
       "description": "- 접수기간 : ~ 9월 29일(화) 17시 마감- 접수방법 : 현대건설 채용 홈페이지를 통한 인터넷접수 (https://recruit.hdec.co.kr/)※ 마감시간에 다수의 지원자 접속으로 시스템 접속이 원활하지 않을 수 있으니 사전에 지원서 항목을 확인하여 주시기 바랍니다.",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458620/artclView.do?layout=unknown",
-      "title": "[롯데그룹] 3·6·9·12 예측가능한 롯데그룹 채용 안내(9/1~)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458620/artclView.do?layout=unknown",
-      "date": "2026-09-02",
-      "source": "경영학과 취업게시판",
-      "description": "- 서류모집 기간 : 2026.09.01(화) ~ (*서류모집 일정의 경우, 계열사 별 상이) - 접수 방법 : 롯데 채용 홈페이지 온라인 접수(https://recruit.lotte.co.kr/)",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458357/artclView.do?layout=unknown",
-      "title": "[현대자동차] 9월 신입 채용 안내(~9/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458357/artclView.do?layout=unknown",
-      "date": "2026-09-01",
-      "source": "경영학과 취업게시판",
-      "description": "■ 모집기간 2026년 9월 1일(화) 9시 9월 14일(월) 17시까지 (KST) ■ 접수방법 현대자동차 채용홈페이지 온라인 지원 ▶ https://bit.ly/3S8pgbF",
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
