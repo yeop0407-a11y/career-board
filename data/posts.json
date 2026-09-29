@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-28T03:19:47.949157+00:00",
+  "updated": "2026-09-29T03:56:55.350013+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464392/artclView.do?layout=unknown",
+      "title": "[부산경제진흥원] 금융공기업 맞춤반(2기) 신청 안내(~10/7)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464392/artclView.do?layout=unknown",
+      "date": "2026-09-29",
+      "source": "경영학과 취업게시판",
+      "description": "1. 부산시와 부산경제진흥원에서는 부산 이전 공공기관 취업지원을 위해 「혁신도시 지역인재 취업지원사업」을 운영하고 있습니다.2. 위 사업의 일환으로 금융공기업 취업을 위한 집중교육을 실시하고자 금융공기업 맞춤반 2기 를 모집하고자 하오니 관심있는 학생들의 많은 관심과 참여바랍니다.가. 금융공기업 맞춤반 2기 프로그램 운영1) 운영기간 : 10월 12일 ~ 21일 (총 25시간)2) 운영내용 강의일시교육내용회차일자시간1회차10월 12일 월13:00~17:00 (4h)부산시 공공기관 ncs의 이해 및 공기업 ncs 출제방향2회차10월",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464083/artclView.do?layout=unknown",
       "title": "[경영학과] 영화금속(주) 회계·재무 추천채용 안내(~10/2)",
@@ -540,17 +551,6 @@
       "category": "program",
       "categoryName": "취업프로그램",
       "color": "#D97706"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458623/artclView.do?layout=unknown",
-      "title": "[현대건설] 2026년 하반기 신입사원 채용(경영일반, ~9/29)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458623/artclView.do?layout=unknown",
-      "date": "2026-09-02",
-      "source": "경영학과 취업게시판",
-      "description": "- 접수기간 : ~ 9월 29일(화) 17시 마감- 접수방법 : 현대건설 채용 홈페이지를 통한 인터넷접수 (https://recruit.hdec.co.kr/)※ 마감시간에 다수의 지원자 접속으로 시스템 접속이 원활하지 않을 수 있으니 사전에 지원서 항목을 확인하여 주시기 바랍니다.",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 }
