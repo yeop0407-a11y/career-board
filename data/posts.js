@@ -1,8 +1,41 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-09-30T03:44:25.583728+00:00",
+  "updated": "2026-10-01T03:51:05.890787+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464754/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 동원그룹 추천채용 안내(~10/6)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464754/artclView.do?layout=unknown",
+      "date": "2026-10-01",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 동원그룹 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 해양 수산, 식품가공 유통, 물류, 생활서비스의 4대 사업군을 중심으로 사업을 영위하는 기업그룹- 스마트 항만 하역, 2차전지 소재 등 차세대 미래 사업을 추진하고 있으며, 인공지능(AI) 기술을 활용한 그룹 전반의 경영혁신 프로젝트 및 첨단사업 확대2. 근무조건모집분야근무형태근무시간근무지연봉재경，영업，해양，건설，안전　등정규직(평일)0８:３0~1７:３0서울, 부산, 영남, 전국 등※ 직무별　상이4,９00만원 이상※ 직무별　상이※ 동원그룹 채용홈페이지: h",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464737/artclView.do?layout=unknown",
+      "title": "[미래시민교육원] THE GOOD School 취·창업(핀테크·문화·관광·MICE) 상담 신청 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464737/artclView.do?layout=unknown",
+      "date": "2026-10-01",
+      "source": "경영학과 취업게시판",
+      "description": "미래시민교육원에서는 THE GOOD School 과정 교육생과 취업준비생 경력전환 희망 시민을 대상으로 문화 관광 MICE 및 핀테크 분야의 취 창업 준비를 위한「THE GOOD School 취 창업 상담」을 운영하오니, 많은 관심과 지원바랍니다.가. (운영기간) 2026. 9. 30.(수) ~ 2026. 12. 31.(목)나. (상담대상) THE GOOD School 과정 교육생, 문화 관광 MICE 및 핀테크 분야 취 창업을 희망 하는 시민 등 다. (상담장소) 부산대학교 효원문화회관 7층",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464611/artclView.do?layout=unknown",
+      "title": "[S-OIL] 2026 사무직 신입사원 채용 안내(~10/14)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464611/artclView.do?layout=unknown",
+      "date": "2026-09-30",
+      "source": "경영학과 취업게시판",
+      "description": "[접수 기간]2026년 9월 30일(수) ～ 10월 14일(수) 23:59＊지원서 접수 기간은 필요 시 연장될 수 있습니다.[S-OIL 채용 홈페이지]https://s-oil.recruiter.co.kr/*홈페이지에서 자세한 직무정보를 확인하세요:)[전형절차]서류전형 ▶ 인적성 검사(10월 말) ▶ AI 역량검사(11월 초) ▶ 1차 면접(11월 중) ▶ 2차 면접(12월 중) ▶ 채용 검진(12월 말) ▶ 최종합격(12월 말) ▶ 입사('27년 1월)＊전형 일정은 변동될 수 있으며, 정확한 일정은 전형별 합격자에게 별도로 안내될",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464392/artclView.do?layout=unknown",
       "title": "[부산경제진흥원] 금융공기업 맞춤반(2기) 신청 안내(~10/7)",
@@ -519,39 +552,6 @@ window.POSTS_DATA = {
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458799/artclView.do?layout=unknown",
-      "title": "[대학일자리플러스센터] 2026 부산청년 MEGA 채용박람회 참가 안내",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458799/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "1. 부산광역시와 부산경제진흥원에서 지역 청년의 취업 역량 강화 및 우수기업 취업 기회 제공을 위하여 「2026 부산청년 MEGA 채용박람회」를 다음과 같이 개최할 예정입니다.2. 우리 대학은 해당 박람회 내 부산대학교 대학일자리플러스센터 부스를 운영할 예정이오니 재적생 및 졸업생들의 많은 관심과 참여바랍니다.가. 행사명: 2026 부산청년 MEGA 채용박람회나. 일시: 2026. 9. 21.(월) 10:00~17:00 ※ 입장 마감 16:00다. 장소: 벡스코 제2전시장 1층 4A~4C홀라. 참가 대상: 청년 구직자 누구나마. 참",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458793/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 2026학년도 2학기 각종 취업 프로그램 설명회 개최 안내(9/9)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458793/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 2026학년도 2학기 학생성공개발원에서 추진하는 각종 취업 프로그램(진로설계, 취업준비, 국내.외 현장실습, 추천채용, 채용설명회 등) 설명회를 다음과 같이 진행하오니 많은 관심과 신청바랍니다. 1. 행 사 명: 2026학년도 2학기 학생성공개발원 학생지원 각종 취업 프로그램 설명회2. 추진목적: 각종 진로.직무탐색- 취업으로 이어지는 취업지원체계 안내 등으로 대학생활부터 사회진출까지 함께하는 대학의 성공 모델 강화3. 일일시시: 26. 09. 09.(수) 17:304. 장장소소: 대학본관 3층 대회의실5. 참여",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458631/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 자기소개서 1:1 클리닉(4~5차) 참가자 모집 안내(4학년, 졸업생)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458631/artclView.do?layout=unknown",
-      "date": "2026-09-02",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 수시 채용 및 하반기 채용에 대비하여 다음과 같이 자기소개서 실전반을 운영하오니 해당하는 학생들의 많은 관심과 신청바랍니다. 1. 모집대상 : 전체학과(부) 4학년 이상 재학생/휴학생/졸업생 일부(졸업 1년이내)2. 신청기간- 4차 : '26. 9. 1.(화) 00:00 ~ 9. 28.(월) 23:00- 5차 : '26. 9. 10.(목) 00:00 ~ 10. 28.(수) 23:00※단, 선착순 마감되면 조기종료3. 신청방법 : 학생역량지원시스템 비교과활동 자기소개서 실전반(4~5차 중 선택)4. 선발인원",
-      "category": "program",
-      "categoryName": "취업프로그램",
-      "color": "#D97706"
     }
   ]
 };
