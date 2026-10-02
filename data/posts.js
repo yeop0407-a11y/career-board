@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-01T03:51:05.890787+00:00",
+  "updated": "2026-10-02T03:48:50.312795+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464954/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 키엔스코리아(주) 추천채용 안내(~10/11)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464954/artclView.do?layout=unknown",
+      "date": "2026-10-02",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 키엔스코리아㈜ 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 일본 KEYENCE CORPORATION의 한국 현지법인으로, 공장자동화(FA)용 센서, 머신비전시스템, 마이크로스코프 등 산업자동화 관련 제품을 공급하는 글로벌 기업- KEYENCE는 전 세계 46개국 250개 영업소를 운영하며, 자동차 반도체 전자 IT 식품 의약품 등 다양한 제조업 분야에 자동화 및 품질관리 솔루션을 제공2. 근무조건모집분야근무형태근무시간근무지연봉컨설팅 세일즈정규직(평일)08:30~17:30분당, 동탄, 평택, 천안, 청주, 대",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464929/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] (주)넥센 경력직 추천채용 안내(~10/10, HR/ER)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1464929/artclView.do?layout=unknown",
+      "date": "2026-10-02",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 ㈜넥센 경력직 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 넥센타이어㈜ 등을 계열사로 두고 있는 넥센그룹의 모회사로, 고무제품 제조 판매, 물류 및 임대사업 등을 영위하는 기업- 자동차용 타이어 튜브 및 솔리드타이어 등 고무제품 사업을 기반으로 국내외 사업을 전개2. 근무조건모집분야근무형태근무시간근무지연봉인사팀(HR), 상생협력팀(ER)정규직 또는 정규직 전환형 인턴 ※ 개인역량에 따름(평일)08:30~17:30경상남도　김해시경력에 따른 내부협의※　사규에 따름※ ㈜넥센 홈페이지: http://www.nexe",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464754/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 동원그룹 추천채용 안내(~10/6)",
@@ -527,28 +549,6 @@ window.POSTS_DATA = {
       "date": "2026-09-03",
       "source": "경영학과 취업게시판",
       "description": "https://apply.lxcareers.com/ *공고명 : [LX인터내셔널] 2026년 하반기 신입사원 채용(채용연계형 인턴십)■ 모집분야 지원사업 : 사업개발 및 운영, 기술지원 해외영업 사업기획 신사업개발 재경 ESG HR ■ 접수기간 : 9.1(화)~9.20(일)",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458809/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 2026학년도 현직자 선배 초청 TALK콘서트 플랫폼 운영 및 모집 안내(~10/31)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458809/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 우리 대학 졸업생 선배인 현직자를 초청하여 실제 취업 준비 과정과 기업별 채용정보, 직무 이해, 취업 성공전략 등 생생한 취업 노하우를 공유하고 학생들의 취업 역량을 강화하기 위한 플랫폼 운영을 아래와 같이 실시하오니, 많은 관심과 참여바랍니다.가. 프로그램명: 2026학년도 「현직자 선배 초청 TALK콘서트」나. 신청대상: 전체 대학(원) 전학년 재적생 및 졸업생다. 신청기간: 2026. 9. 2.(수) ~ 10. 31.(토)라. 신청방법: 플랫폼(https://pnu.insightjob.co.kr/) 회원가입",
-      "category": "other",
-      "categoryName": "기타",
-      "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458802/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 부산대학교 대학일자리플러스센터 사무원 채용 안내(~9/9)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458802/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "우리대학 학생성공개발원 대학일자리플러스센터의 원활한 운영을 위하여 센터에서 근무할 사무원을 아래와 같이 채용하고자 하오니 많은 지원바랍니다. 가. 채용분야 및 인원채용 분야채용인원계약기간담당업무근무부서대학일자리플러스센터사무원2명채용일로부터'27.2.28.까지-고용노동부 주관 사업 관련 전반 행정 업무부산대학교대학일자리플러스센터※ 채용자의 신분은 부산대학교 학생성공개발원 대학일자리플러스센터 소속 자체직원(계약직원)으로 공무원이 아님※ 단, 대학일자리플러스센터 사업 추진기간 내 업무평가를 통하여 1년 단위로 재계약할 수 있으며, 본 계",
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
