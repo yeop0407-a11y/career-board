@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-05T03:47:32.153498+00:00",
+  "updated": "2026-10-06T04:35:23.369667+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1465738/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] (주)포스뱅크 추천채용 안내(~10/9, 기간연장)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1465738/artclView.do?layout=unknown",
+      "date": "2026-10-06",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 (주)포스뱅크 추천채용을 아래와 같이 알려드립니다.1. 기업소개- POS(Point of Sale), KIOSK 등 무인 결제 관련 하드웨어를 개발 제조하고 관련 소프트웨어를 개발하여 매장 운영의 효율성과 편의성을 높이는 다양한 솔루션을 제공하는 기업- 국내 자체 생산시설을 기반으로 POS KIOSK Self Checkout IoT 제품 등을 생산하고 있으며, 전 세계 80개국에 글로벌 네트워크를 구축하여 사업을 전개- 2024년 코스닥에 상장하였으며, 최근 로봇 분야 자회사 설립 등을 통해 서빙 청소로봇 등으로",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1465737/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 한미그룹 채용설명회 일정 안내(10/6)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1465737/artclView.do?layout=unknown",
+      "date": "2026-10-06",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 한미그룹(한미약품/한미사이언스) 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소한미그룹(한미약품/한미사이언스) 채용설명회'26. 10. 6.(화) 15:00~16:30문창회관 2층 다목적강의실12. 주요내용 : 한미그룹(한미약품/한미사이언스) 기업 소개 및 2026년 하반기 신입사원 채용 전형 안내　등※ 모집 직무 : 영업, 연구, 임상, 품질 등※ 채용형태 : 정규직※ 채용기간 : ?26. 9. 28.(월) ~ 10. 18.(일)3. 신청방법 : 당일 현장 참가4. 참가대상 : 한",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1464954/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 키엔스코리아(주) 추천채용 안내(~10/11)",
@@ -527,28 +549,6 @@ window.POSTS_DATA = {
       "date": "2026-09-03",
       "source": "경영학과 취업게시판",
       "description": "[KT G] 2026년 하반기 KT G 신입/경력사원 채용 접수기간 : 8/10(월) - 9/10(목) 15:00 까지 (한국시간 기준) 지원방법 : http://ktng.recruiter.co.kr 에서 온라인 지원",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458821/artclView.do?layout=unknown",
-      "title": "[DB손해보험] 2026년 신입사원 공개채용 안내(~10/2)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458821/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "[DB손해보험] 2026년 신입사원 공개채용 접수기간 : 9/1(화) - 10/2(금) 17:00 까지 지원방법 : https://dbgroup.recruiter.co.kr/ 에서 온라인 지원",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458817/artclView.do?layout=unknown",
-      "title": "[LX인터내셔널] 2026년 하반기 신입사원 채용 (채용연계형 인턴십) 안내(~9/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458817/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "https://apply.lxcareers.com/ *공고명 : [LX인터내셔널] 2026년 하반기 신입사원 채용(채용연계형 인턴십)■ 모집분야 지원사업 : 사업개발 및 운영, 기술지원 해외영업 사업기획 신사업개발 재경 ESG HR ■ 접수기간 : 9.1(화)~9.20(일)",
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
