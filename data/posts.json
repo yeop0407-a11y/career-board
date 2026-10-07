@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-06T04:35:23.369667+00:00",
+  "updated": "2026-10-07T04:01:07.650349+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1465824/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 전국 지역인재 7급 수습직원 선발시험 향후 변경사항 안내",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1465824/artclView.do?layout=unknown",
+      "date": "2026-10-06",
+      "source": "경영학과 취업게시판",
+      "description": "인사혁신처에서는 공직의 지역대표성을 제고하고 국가균형발전을 위해 전국 지역인재 추천채용제를 시행하고 있습니다.이와 관련하여 학생성공개발원으로부터 2027년 이후 전국 지역인재 7급 수습직원 선발시험 향후 변경사항을 붙임과 같이 안내드립니다. 요 약 * 이외 요건은 이전과 동일 ㅇ 추천 성적요건 변경- (기존) 학과 성적 상위 10% 이내 (변경) 학과 성적 상위 15% 이내ㅇ PSAT 심화 시험-전국 지역인재 7급 수습직원 선발시험 별도 원서접수- 전국 지역인재 7급 필기시험은 당해 연도 공직적격성평가(PSAT) 시험 성",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1465738/artclView.do?layout=unknown",
       "title": "[학생성공개발원] (주)포스뱅크 추천채용 안내(~10/9, 기간연장)",
@@ -540,17 +551,6 @@
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1458824/artclView.do?layout=unknown",
-      "title": "[KT&G] 2026년 하반기 KT&G 신입사원 채용 안내(~9/10)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1458824/artclView.do?layout=unknown",
-      "date": "2026-09-03",
-      "source": "경영학과 취업게시판",
-      "description": "[KT G] 2026년 하반기 KT G 신입/경력사원 채용 접수기간 : 8/10(월) - 9/10(목) 15:00 까지 (한국시간 기준) 지원방법 : http://ktng.recruiter.co.kr 에서 온라인 지원",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 }
