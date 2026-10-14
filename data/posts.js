@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-13T05:12:51.297891+00:00",
+  "updated": "2026-10-14T03:18:56.962636+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1466749/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 2026학년도 2학기 면접프로그램(특강) 신청 안내(~10/20)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1466749/artclView.do?layout=unknown",
+      "date": "2026-10-14",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 대학 학생들의 하반기 면접전형 대비 취업 역량 강화를 위한 면접프로그램(특강)을 아래와 같이 실시하고자 하오니, 많은 관심과 참여바랍니다.가. 프로그램명: 면접프로그램(특강)나. 신청기간: ~ 2026. 10. 20.(화) 16:00 까지다. 세부운영 내용구분운영일시모집학년세부내용모집인원면접특강2026. 10. 26.(월)18:00~20:00(2H)전학년[2026 하반기 채용시장 대해부] 자소서 폐지/반나절 심층면접/AI역량검사까지, 올해 바뀐 것만 골라 정리하고 남은 기간 지원전략 재설계60명 내외2026.",
+      "category": "program",
+      "categoryName": "취업프로그램",
+      "color": "#D97706"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1466666/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 한미약품㈜ 추천채용 안내(~10/18)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recommended",
       "categoryName": "추천채용",
       "color": "#DC2626"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459813/artclView.do?layout=unknown",
-      "title": "[아모레퍼시픽] 2026 하반기 아모레퍼시픽 신입사원 일반전형 채용(~9/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459813/artclView.do?layout=unknown",
-      "date": "2026-09-09",
-      "source": "경영학과 취업게시판",
-      "description": "아모레퍼시픽 공식 채용 홈페이지를 통한 온라인 접수 (https://m.site.naver.com/2gcT0)",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 };
