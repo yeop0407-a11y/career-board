@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-15T02:57:22.207993+00:00",
+  "updated": "2026-10-16T02:54:54.927733+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1467236/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 2026학년도 2학기 1:1모의면접 프로그램 신청 안내(~11/1)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1467236/artclView.do?layout=unknown",
+      "date": "2026-10-15",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 우리 대학 학생들의 하반기 채용 중 면접전형 대비 취업 역량 강화를 위한 1:1모의면접 프로그램을 아래와 같이 실시하고자 하오니, 많은 관심과 참여바랍니다.가. 프로그램명: 1:1모의면접 프로그램나. 신청기간: 2026. 10. 17.(토) 00:00 ~ 11. 1.(일) 23:59까지- (신청방법) 학생역량지원시스템 비교과활동 비교과프로그램 면접프로그램(1:1모의면접) 선택다. 세부운영 내용구분운영일시모집학년세부내용모집인원1:1모의면접2026. 11. 11.(수)~ 11. 13.(금)4학년[강사 1명",
+      "category": "program",
+      "categoryName": "취업프로그램",
+      "color": "#D97706"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1466749/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 2026학년도 2학기 면접프로그램(특강) 신청 안내(~10/20)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1459853/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 크나우프석고보드(주) 추천채용 안내(~9/26)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1459853/artclView.do?layout=unknown",
-      "date": "2026-09-09",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 크나우프석고보드(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 독일에 본사를 둔 글로벌 건축자재 전문기업 Knauf의 한국법인으로, 석고보드 등 건축자재를 생산 공급하는 기업- 한국법인인 크나우프석고보드(주)는 약 350명의 임직원이 근무하며, 서울사무소 및 당진 울산 여수 3개 공장을 운영하고 연간 약 3,000억원의 매출을 기록2. 근무조건모집분야근무형태근무시간근무지연봉LEAP(LEaders Acceleration Program)정규직(평일)08:00~17:00서울 사무소(삼성동), 울산 공장, 여수",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
