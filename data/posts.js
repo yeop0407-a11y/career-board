@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-26T02:56:44.325060+00:00",
+  "updated": "2026-10-27T03:29:40.936108+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1468162/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 삼성청년 SW·AI 아카데미(SSAFY) 설명회 안내(11/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1468162/artclView.do?layout=unknown",
+      "date": "2026-10-26",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 삼성청년 SW AI 아카데미(SSAFY) 설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소삼성청년 SW AI 아카데미(SSAFY) 설명회'26. 11. 3.(화) 14:00~기계관 지하 1층 국제회의장2. 주요내용가. 삼성청년 SW AI 아카데미(SSAFY) 사업 및 교육과정 소개나. SSAFY 17기 교육생 모집 일정, 지원자격 및 선발절차 안내　등3. 신청방법 ：별도 사전 신청 없이 당일 현장 참가4. 참가대상 : 삼성청년 SW AI 아카데미(SSAFY) 교육과정 및 취업 연계 프로그",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1468050/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 현대백화점그룹 채용설명회 및 현장면접 개최 안내(10/30 등)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462306/artclView.do?layout=unknown",
-      "title": "[한화에어로스페이스] 2026 하반기 대규모 신입사원(정규직/채용연계형 인턴) 채용(~9/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462306/artclView.do?layout=unknown",
-      "date": "2026-09-11",
-      "source": "경영학과 취업게시판",
-      "description": "■ 모집 분야 - R D, 제조/생산기술, 품질, 구매, 사업개발, 재무, 경영지원 등■ 지원서 접수 - 접수기간 : 2026.08.31(월) ~ 09.20(일) 23시 59분 - 접수방법 : 한화그룹 채용 홈페이지(www.hanwhain.com) On-Line 지원",
-      "category": "recruitment",
-      "categoryName": "일반채용",
-      "color": "#16A34A"
     }
   ]
 };
