@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-10-27T03:29:40.936108+00:00",
+  "updated": "2026-10-28T03:45:02.727764+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1468529/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 로지스올 추천채용 안내(~11/2)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1468529/artclView.do?layout=unknown",
+      "date": "2026-10-28",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 로지스올 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1984년 설립된 종합물류 전문기업으로, 파렛트 컨테이너 공동이용시스템(POOL SYSTEM)을 기반으로 물류기기 렌탈 및 종합 물류솔루션 제공- 국내 약 30만 개 기업을 대상으로 물류서비스를 제공하며, 2025년 그룹 전체 매출액 약 2조 5천억 원을 달성한 글로벌 물류기업2. 근무조건모집분야근무형태근무시간근무지연봉SCM 영업 및 운영관리정규직（수습기간 2개월）(평일)0９:00~18:00수도권 강원권 충청권 경상권 호남권（신입）약 6,070만 원※　성",
+      "category": "recommended",
+      "categoryName": "추천채용",
+      "color": "#DC2626"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1468492/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 피에스케이(주) 채용설명회 개최 안내(11/9)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1468492/artclView.do?layout=unknown",
+      "date": "2026-10-28",
+      "source": "경영학과 취업게시판",
+      "description": "학생성공개발원에서 피에스케이(주) 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소피에스케이 그룹 채용설명회'26. 11. 9.(월) 13:00~15:00문창회관 2층 다목적강의실12. 주요내용가. 피에스케이 그룹 소개 및 반도체 공정 장비 관련 주요 사업 분야 안내나. 2026년 채용 분야, 채용절차 및 주요 직무 안내　등3. 참가대상: 피에스케이 그룹 채용에 관심 있는 재학생 및 기졸업자 등4. 참가방법: 당일 현장 방문5. 기타사항가. 채용설명회 및 현장 상담 부스 운영 예정나. 채용 관련 세부사",
+      "category": "fair",
+      "categoryName": "채용설명회",
+      "color": "#2563EB"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1468162/artclView.do?layout=unknown",
       "title": "[학생성공개발원] 삼성청년 SW·AI 아카데미(SSAFY) 설명회 안내(11/3)",
@@ -527,28 +549,6 @@ window.POSTS_DATA = {
       "date": "2026-09-11",
       "source": "경영학과 취업게시판",
       "description": "학생성공개발원에서 한화시스템 방산부문 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소한화시스템 방산부문 채용설명회'26. 9. 14.(월) 15:00 ~ 16:00기계관 2층 대강당2. 주요내용 : 2026년 하반기 한화시스템 방산부문 신입사원 채용 관련 주요 사업 및 기술 소개, 모집직무 및 채용전형 안내, 채용담당자 지원 TIP 및 부산대학교 출신 선배사원의 취업 성장 스토리 공유 등3. 신청방법 : 사전신청 또는 당일 현장 참가※ 신청 링크 : https://ozic.com/events/225※",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462334/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 대한무역투자진흥공사(KOTRA) 채용설명회 일정 안내(9/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462334/artclView.do?layout=unknown",
-      "date": "2026-09-11",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 대한무역투자진흥공사(KOTRA) 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소대한무역투자진흥공사(KOTRA) 채용설명회'26. 9. 14.(월)11:00 ~ 12:00문창회관 2층 다목적강의실12. 주요내용 : 대한무역투자진흥공사(KOTRA) 소개 및 2026년 통상직 신입사원 채용전형 안내, 현직자 멘토링 및 Q A※ 통상직(일반계열 이공계열 어문계열), 국내외 순환근무 필수3. 신청방법 : 당일 현장 참가4. 참가대상 : 대한무역투자진흥공사(KOTRA) 채용에 관심 있는 재학생",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462328/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 한화오션 채용설명회 일정 안내(9/14)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462328/artclView.do?layout=unknown",
-      "date": "2026-09-11",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 한화오션 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소한화오션 채용설명회'26. 9. 14.(월)12:00 ~ 13:00기계관 2층 대강당2. 주요내용 : 2026년 하반기 한화오션 신입사원 채용 관련 회사 및 채용전형 소개, 현직자 직무 안내 및 Q A※ 모집분야: 설계, 영업 사업관리 구매, 생산관리, AX, 연구개발, 경영지원3. 신청방법 : 사전 신청 또는 당일 현장 참가※ 사전 신청 : https://www.nsign.kr/sv/page?k=GGFqQk4R pv=N4. 참",
       "category": "fair",
       "categoryName": "채용설명회",
       "color": "#2563EB"
