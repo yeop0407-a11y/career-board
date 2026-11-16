@@ -1,8 +1,19 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-11-15T04:34:35.157879+00:00",
+  "updated": "2026-11-16T04:31:03.961949+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1473183/artclView.do?layout=unknown",
+      "title": "[국제처] 2026 KOTRA-PNU Job Fair for Int l Students(11/26)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1473183/artclView.do?layout=unknown",
+      "date": "2026-11-16",
+      "source": "경영학과 취업게시판",
+      "description": "국제처 국제협력실에서 KOTRA와 부산대학교가 공동 주관하는 「2026 KOTRA-PNU 외국인 유학생 채용상담회(부울경?대구경북권)」를 아래와 같이 개최하오니, 외국인 유학생들의 많은 관심과 참여바랍니다.가. 행사개요1) 주관: KOTRA 해외유치센터, 부산대학교 국제처2) 일시: 2026. 11. 26.(목) 13:00~17:003) 장소: 부산대학교 기계관(303) 국제회의장(B1F)4) 규모: 국내 기업 10개사 및 외국인 유학생 100명 내외5) 내용: 구인처-구직자 1:1 상담 및 면접, 부대행사* 운영* 증명사진 촬영,",
+      "category": "other",
+      "categoryName": "기타",
+      "color": "#6B7280"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1471758/artclView.do?layout=unknown",
       "title": "[학생성공개발원] Apple 디벨로퍼 아카데미 특별 워크숍 개최 안내 (11/24)",
@@ -541,17 +552,6 @@ window.POSTS_DATA = {
       "category": "recruitment",
       "categoryName": "일반채용",
       "color": "#16A34A"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462470/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 한국전력공사 채용설명회 일정 안내(9/15)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462470/artclView.do?layout=unknown",
-      "date": "2026-09-14",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 한국전력공사 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소한국전력공사 채용설명회'26. 9. 15.(화) 11:00~12:00기계관 2층 대강당2. 주요내용- 채용설명회 : 한국전력공사 기업 및 주요 직무 소개, 2026년 하반기 신입사원 채용 전형 안내 및 질의응답3. 신청방법- 채용설명회 : 당일 현장 참가4. 참가대상- 채용설명회 : 한국전력공사 채용 및 직무에 관심 있는 재학생 및 졸업(예정)자 등 붙임 [한국전력공사] 2026년 하반기 채용 공고문 1부. 끝.",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
     }
   ]
 };
