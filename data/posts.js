@@ -1,8 +1,30 @@
 /* 자동 생성 파일 — fetch_rss.py 실행 시 갱신됩니다. 직접 수정하지 마세요. */
 window.POSTS_DATA = {
-  "updated": "2026-11-23T05:29:07.689836+00:00",
+  "updated": "2026-11-24T08:07:27.287771+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1474920/artclView.do?layout=unknown",
+      "title": "[앵커사업단] 동남권 공유대학 사업 계약직원 공개채용 안내(~12/3)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1474920/artclView.do?layout=unknown",
+      "date": "2026-11-24",
+      "source": "경영학과 취업게시판",
+      "description": "우리 대학 앵커사업단에서는 동남권 공유대학 사업의 원활한 추진을 위하여 계약직원을 붙임과 같이 공개채용하고자 하오니, 졸업생 및 대학원 재학생 등의 많은 관심과 지원바랍니다.1. 채용분야 및 인원분야인원근무부서담당 업무전임연구원2명앵커사업단초광역공유대학사업단공동교육과정본부 동남권 공유대학 비공학 분야 프로그램 운영 동남권 공유대학 교육 관련 시스템 관리 기타 지정하는 업무사무원1명 동남권 공유대학 사업 자체직원 인사 관련 업무 동남권 공유대학 사업 및 부서 회계 업무 동남권 공유대학 사업 관련 행정 업무 기타 지정하는",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
+    {
+      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1474746/artclView.do?layout=unknown",
+      "title": "[학생성공개발원] 사무원(육아휴직대체) 채용 안내(~12/7)",
+      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1474746/artclView.do?layout=unknown",
+      "date": "2026-11-24",
+      "source": "경영학과 취업게시판",
+      "description": "우리 대학 학생성공개발원에서 근무할 사무원(육아휴직대체)을 채용하고자 하오니, 졸업(예정)생 및 대학원 재학생들의 많은 관심과 지원바랍니다.1. 채용분야 및 인원분야인원근무부서담당 업무사무원(육아휴직대체)1명부산대학교 학생성공개발원- 취업 프로그램 실무(국내.외)- 기업관련 프로그램 실무- 교과목 운영 실무- 기타 행정 지원 업무2. 응시자격 : 학사학위 취득(예정)자3. 채용방법 : 학생성공개발원 자체계약직 공개경쟁채용※ 학생성공개발원 소속 자체직원(계약직)으로서 공무원이 아님4. 계약기간 : 2027. 1. 1. ~ 2027.",
+      "category": "recruitment",
+      "categoryName": "일반채용",
+      "color": "#16A34A"
+    },
     {
       "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1473791/artclView.do?layout=unknown",
       "title": "[대학일자리플러스센터] AI 활용 커리어 아카이빙 프로그램 신청 안내",
@@ -530,28 +552,6 @@ window.POSTS_DATA = {
       "category": "other",
       "categoryName": "기타",
       "color": "#6B7280"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462708/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 네조트(주) 채용설명회 일정 안내(9/16)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462708/artclView.do?layout=unknown",
-      "date": "2026-09-15",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 네조트(주) 채용설명회 일정을 아래와 같이 알려드립니다.1. 행사개요행 사 명개최일시개최장소네조트(주) 채용설명회'26. 9. 16.(수) 12:00~13:00문창회관 2층 다목적강의실12. 주요내용 : 네조트㈜ 기업 및 주요 직무 소개, 2027년 상반기 신입사원 채용 전형 안내 및 질의응답※ 모집 직무 : 웹개발자(프로그래머)3. 신청방법 : 사전신청(권장) 또는 당일 현장 참가※ 신청 링크 : https://forms.gle/Ln7St6fRGSaDXNUL94. 참가대상 : 네조트(주) 채용 및 일본 취업에 관",
-      "category": "fair",
-      "categoryName": "채용설명회",
-      "color": "#2563EB"
-    },
-    {
-      "id": "https://biz.pusan.ac.kr/bbs/biz/1093/1462706/artclView.do?layout=unknown",
-      "title": "[학생성공개발원] 티에스전자(주) 추천채용 안내(~9/20)",
-      "link": "https://biz.pusan.ac.kr/bbs/biz/1093/1462706/artclView.do?layout=unknown",
-      "date": "2026-09-15",
-      "source": "경영학과 취업게시판",
-      "description": "학생성공개발원에서 티에스전자(주) 추천채용을 아래와 같이 알려드립니다.1. 기업소개- 1997년 설립되어 외국계 반도체 유통 및 연구개발 기술협력 사업을 수행하는 기업- 국내 대기업의 가전 및 전장 제품군을 대상으로 반도체 관련 연구개발 기술지원 마케팅 업무를 수행하는 기업2. 근무조건모집분야근무형태근무시간근무지연봉(기술연구실)반도체 기술연구개발(SW HW)정규직(평일)09:00~18:00※ 유연근무제 운영서울특별시 송파구3,800~4,000만원 이상※부서별 상이(영업본부)반도체 마케팅 기술영업※ 티에스전자(주) 홈페이지: http",
-      "category": "recommended",
-      "categoryName": "추천채용",
-      "color": "#DC2626"
     }
   ]
 };
